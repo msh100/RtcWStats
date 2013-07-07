@@ -1,0 +1,3034 @@
+logfile opened on Wed Sep 26 21:17:39 2012
+
+...detecting CPU, found Intel Pentium III
+Bypassing CD checks
+----- Client Initialization -----
+----- Initializing Renderer ----
+-------------------------------
+Loaded 714 translation strings from scripts/translation.cfg
+Loaded 97 translation strings from translations/rocket.cfg
+Loaded 86 translation strings from translations/dam.cfg
+Loaded 114 translation strings from translations/tram.cfg
+Loaded 57 translation strings from translations/chateau.cfg
+Loaded 54 translation strings from translations/keep.cfg
+Loaded 73 translation strings from translations/icelab.cfg
+Loaded 6 translation strings from translations/translation-1_4.cfg
+----- Client Initialization Complete -----
+----- R_Init -----
+Initializing OpenGL subsystem
+...initializing QGL
+...calling LoadLibrary( 'F:\Windows\system32\opengl32.dll' ): succeeded
+...setting mode -1: 1920 1080 FS
+...using colorsbits of 32
+...calling CDS: ok
+...registered window class
+...created window@0,0 (1920x1080)
+Initializing OpenGL driver
+...getting DC: succeeded
+...GLW_ChoosePFD( 32, 24, 0 )
+...133 PFDs found
+...hardware acceleration found
+...PIXELFORMAT 7 selected
+...creating GL context: succeeded
+...making context current: succeeded
+Initializing OpenGL extensions
+...using GL_EXT_texture_compression_s3tc
+...ignoring GL_EXT_texture_env_add
+...using WGL_EXT_swap_control
+...using GL_ARB_multitexture
+...using GL_EXT_compiled_vertex_array
+...WGL_3DFX_gamma_control not found
+...ignoring GL_NV_fog_distance
+
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 550 Ti/PCIe/SSE2
+GL_VERSION: 4.2.0
+GL_EXTENSIONS: GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_instanced GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_map_buffer_range GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_shader_objects GL_ARB_shading_language_100 GL_ARB_shadow GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_compression GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_mirrored_repeat GL_ARB_texture_non_power_of_two GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_transpose_matrix GL_ARB_vertex_array_object GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_explicit_multisample GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program_fp64 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_buffer_load GL_NV_texgen_reflection GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_expand_normal GL_NV_texture_rectangle GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum GL_WIN_swap_hint WGL_EXT_swap_control 
+GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_ACTIVE_TEXTURES_ARB: 4
+
+PIXELFORMAT: color(32-bits) Z(24-bit) stencil(0-bits)
+MODE: -1, 1920 x 1080 fullscreen hz:120
+GAMMA: software w/ 0 overbright bits
+CPU: Intel Pentium III
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_NEAREST
+picmip: 2
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: disabled
+compressed textures: enabled
+NV distance fog: disabled
+HACK: using vertex lightmap approximation
+Initializing Shaders
+----- finished R_Init -----
+
+------- sound initialization -------
+Initializing DirectSound
+DirectSound initialized successfully
+------------------------------------
+----- Sound Info -----
+sound system is muted
+    1 stereo
+32768 samples
+   16 samplebits
+    1 submission_chunk
+22050 speed
+0xaf20050 dma buffer
+No background file.
+----------------------
+Sound memory manager started
+--- Common Initialization Complete ---
+Winsock Initialized
+Opening IP socket: localhost:27960
+Hostname: Karlmann-PC
+IP: 10.0.0.1
+Working directory: F:\Games\RTCW
+^5PunkBuster Client: pb_MsgPrefix = ^5PunkBuster Client
+^5PunkBuster Client: pb_Sleep = 500 (20 to 500)
+^5PunkBuster Client: pb_LogToFile = 0 (0=No, 1=Yes)
+^5PunkBuster Client: pb_SsLog = 1 (0=No, 1=Yes)
+^5PunkBuster Client: pb_SsSave = 0 (0=No, 1=Yes)
+^5PunkBuster Client: Screenshots: W=640, H=480, X=50%, Y=50%, Srate=1
+^5PunkBuster Client: pb_LogUser = 
+^5PunkBuster Client: pb_LogPw = 
+^5PunkBuster Client: pb_LogAddr = 
+^5PunkBuster Client: pb_LogPort = 1 (1 to 65535)
+^5PunkBuster Client: PB_SYSTEM = 1 (0 to 1)
+^5PunkBuster Client: Changing (Vista) homepath to [F:\Users\Karlmann\AppData\Local\PunkBuster\RTCW\pb\]
+^5PunkBuster Client: pb_MsgPrefix = ^5PunkBuster Client
+^5PunkBuster Client: pb_Sleep = 500 (20 to 500)
+^5PunkBuster Client: pb_LogToFile = 0 (0=No, 1=Yes)
+^5PunkBuster Client: pb_SsLog = 1 (0=No, 1=Yes)
+^5PunkBuster Client: pb_SsSave = 0 (0=No, 1=Yes)
+^5PunkBuster Client: Screenshots: W=640, H=480, X=50%, Y=50%, Srate=1
+^5PunkBuster Client: File Not Found: pbcllog.cfg
+^5PunkBuster Client: Error: Failed to locate resource (A)
+^5PunkBuster Client: Attempting to resolve master4.evenbalance.com
+^5PunkBuster Client: Resolved to [66.180.170.20] (0)
+^5PunkBuster Client: PunkBuster Client (v2.164 | A0) Enabled
+usage: set <variable> <value>
+Resolving wolfmotd.idsoftware.com
+wolfmotd.idsoftware.com resolved to 199.107.64.171:27951
+213.108.29.131:27010 resolved to 213.108.29.131:27010
+Resolving wolfauthorize.idsoftware.com
+wolfauthorize.idsoftware.com resolved to 199.107.64.171:27952
+^5PunkBuster Client: Game Version [Wolf 1.41b-MP win-x86 May  8 2006]
+^5PunkBuster Client: Connected to Server 213.108.29.131:27010
+^5PunkBuster Client: Error: Unable to set cl_guid
+^5PunkBuster Client: PB Services socket initialized
+Current search path:
+F:\Games\RTCW\osp\osp-pak01.pk3 (7 files)
+    on the pure list
+F:\Games\RTCW\osp\osp-pak00.pk3 (15 files)
+    on the pure list
+F:\Games\RTCW\osp\osp-bin07.pk3 (77 files)
+    on the pure list
+F:\Games\RTCW\main\mp_basement.pk3 (6 files)
+    on the pure list
+F:\Games\RTCW\main\WL_ufo.pk3 (32 files)
+    on the pure list
+F:\Games\RTCW\main\te_frostbite.pk3 (99 files)
+    on the pure list
+F:\Games\RTCW\main\te_escape2.pk3 (11 files)
+    on the pure list
+F:\Games\RTCW\main\bp_badplace.pk3 (21 files)
+    on the pure list
+F:\Games\RTCW\main\adlernest_b3.pk3 (164 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pakmaps6.pk3 (81 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pakmaps5.pk3 (35 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pakmaps4.pk3 (52 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pakmaps3.pk3 (83 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pakmaps2.pk3 (47 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pakmaps1.pk3 (34 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pakmaps0.pk3 (21 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pak5.pk3 (77 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pak4.pk3 (5 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pak3.pk3 (76 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pak2.pk3 (3 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pak1.pk3 (308 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pak0.pk3 (783 files)
+    on the pure list
+F:\Games\RTCW\main\mp_bin.pk3 (4 files)
+    on the pure list
+F:\Games\RTCW\main\pak0.pk3 (4775 files)
+    on the pure list
+F:\Games\RTCW/osp
+F:\Games\RTCW\main\mp_theriver.pk3 (49 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_schwalbe.pk3 (213 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_pak_kungfugrip.pk3 (208 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_pakmaps7.pk3 (440 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_pacific.pk3 (22 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_marketgarden.pk3 (82 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_garage.pk3 (25 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_ctfmultidemo.pk3 (10 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_communique.pk3 (8 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_bridge.pk3 (14 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_breakout.pk3 (76 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_bismarck.pk3 (116 files)
+    not on the pure list
+F:\Games\RTCW\main\wl_beach.pk3 (8 files)
+    not on the pure list
+F:\Games\RTCW\main\te_ufo.pk3 (32 files)
+    not on the pure list
+F:\Games\RTCW\main\te_badplace.pk3 (20 files)
+    not on the pure list
+F:\Games\RTCW\main\supplydepot_b2_fixed.pk3 (213 files)
+    not on the pure list
+F:\Games\RTCW\main\supplydepot_b1.pk3 (213 files)
+    not on the pure list
+F:\Games\RTCW\main\strayjump2.pk3 (39 files)
+    not on the pure list
+F:\Games\RTCW\main\strayjump1.pk3 (19 files)
+    not on the pure list
+F:\Games\RTCW\main\Slickmaster1_beta1.pk3 (59 files)
+    not on the pure list
+F:\Games\RTCW\main\mml_headshot.pk3 (20 files)
+    not on the pure list
+F:\Games\RTCW\main\homiejump1.pk3 (21 files)
+    not on the pure list
+F:\Games\RTCW\main\dzm_trickjump.pk3 (4 files)
+    not on the pure list
+F:\Games\RTCW\main\de_frostbite.pk3 (99 files)
+    not on the pure list
+F:\Games\RTCW\main\brickjump_final.pk3 (9 files)
+    not on the pure list
+F:\Games\RTCW\main\braundorf_b4.pk3 (218 files)
+    not on the pure list
+F:\Games\RTCW\main\braundorf_b3.pk3 (218 files)
+    not on the pure list
+F:\Games\RTCW\main\braundorf_b1.pk3 (216 files)
+    not on the pure list
+F:\Games\RTCW\main\badplace2.pk3 (20 files)
+    not on the pure list
+F:\Games\RTCW\main\axis_complex.pk3 (13 files)
+    not on the pure list
+F:\Games\RTCW\main\as_fortress.pk3 (47 files)
+    not on the pure list
+F:\Games\RTCW\main\airship.pk3 (60 files)
+    not on the pure list
+F:\Games\RTCW\main\adlernest_b2.pk3 (164 files)
+    not on the pure list
+F:\Games\RTCW/main
+
+handle 1: rtcwconsole.log
+----------------------
+19582 files in pk3 files
+RE_Shutdown( 0 )
+Hunk_Clear: reset the hunk ok
+----- R_Init -----
+
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 550 Ti/PCIe/SSE2
+GL_VERSION: 4.2.0
+GL_EXTENSIONS: GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_instanced GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_map_buffer_range GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_shader_objects GL_ARB_shading_language_100 GL_ARB_shadow GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_compression GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_mirrored_repeat GL_ARB_texture_non_power_of_two GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_transpose_matrix GL_ARB_vertex_array_object GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_explicit_multisample GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program_fp64 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_buffer_load GL_NV_texgen_reflection GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_expand_normal GL_NV_texture_rectangle GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum GL_WIN_swap_hint WGL_EXT_swap_control 
+GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_ACTIVE_TEXTURES_ARB: 4
+
+PIXELFORMAT: color(32-bits) Z(24-bit) stencil(0-bits)
+MODE: -1, 1920 x 1080 fullscreen hz:120
+GAMMA: software w/ 0 overbright bits
+CPU: Intel Pentium III
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_NEAREST
+picmip: 2
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: disabled
+compressed textures: enabled
+NV distance fog: disabled
+HACK: using vertex lightmap approximation
+Initializing Shaders
+----- finished R_Init -----
+LOADING... collision map
+LOADING... sounds
+voice chat memory size = 3264
+
+.........................
+Initializing Sound Scripts
+...loading 'sound/scripts/cutscene1.sounds'
+...loading 'sound/scripts/cutscene6.sounds'
+...loading 'sound/scripts/cutscene9.sounds'
+...loading 'sound/scripts/cutscene11.sounds'
+...loading 'sound/scripts/cutscene14.sounds'
+...loading 'sound/scripts/cutscene19.sounds'
+...loading 'sound/scripts/escape1.sounds'
+...loading 'sound/scripts/escape2.sounds'
+...loading 'sound/scripts/tram.sounds'
+...loading 'sound/scripts/village1.sounds'
+...loading 'sound/scripts/crypt1.sounds'
+...loading 'sound/scripts/crypt2.sounds'
+...loading 'sound/scripts/church.sounds'
+...loading 'sound/scripts/boss1.sounds'
+...loading 'sound/scripts/forest.sounds'
+...loading 'sound/scripts/rocket.sounds'
+...loading 'sound/scripts/assault.sounds'
+...loading 'sound/scripts/sfm.sounds'
+...loading 'sound/scripts/factory.sounds'
+...loading 'sound/scripts/trainyard.sounds'
+...loading 'sound/scripts/swf.sounds'
+...loading 'sound/scripts/norway.sounds'
+...loading 'sound/scripts/xlabs.sounds'
+...loading 'sound/scripts/boss2.sounds'
+...loading 'sound/scripts/dam.sounds'
+...loading 'sound/scripts/village2.sounds'
+...loading 'sound/scripts/chateau.sounds'
+...loading 'sound/scripts/dark.sounds'
+...loading 'sound/scripts/castle.sounds'
+...loading 'sound/scripts/end.sounds'
+...loading 'sound/scripts/ai.sounds'
+...loading 'sound/scripts/general.sounds'
+...loading 'sound/scripts/combat.sounds'
+...loading 'sound/scripts/movers.sounds'
+done.
+LOADING... graphics
+LOADING... maps/MP_BEACH.bsp
+stitched 0 LoD cracks
+...loaded 5432 faces, 264 meshes, 259 trisurfs, 168 flares
+LOADING... entities
+LOADING... game media
+LOADING...  - textures
+LOADING...  - models
+LOADING...  - weapons
+LOADING...  - items
+LOADING...  - inline models
+LOADING...  - server models
+LOADING...  - particles
+LOADING...  - game media done
+LOADING... flamechunks
+LOADING... clients
+LOADING... baDazz crabje
+LOADING... baDazz leonneke
+LOADING... baDazz zerbji
+LOADING... baDazz os1ris
+LOADING... falx-raul
+LOADING... baDazz DtS
+LOADING... baDazz inert
+UI menu load time = 7 milli seconds
+^3
+***
+*** !!! Loaded: OSP for Wolfenstein !!!
+*** !!! Client Version: 0.9 (Jan  7 2004) !!!
+***
+[skipnotify]Current time: ^321:54:45 (26 Sep 2012)
+CL_InitCGame:  1.73 seconds
+3 msec to draw all images
+Com_TouchMemory: 0 msec
+[skipnotify]Server: timelimit changed to 8
+[skipnotify]You are already NOT ready!
+^5PunkBuster Client: WARNING: ^7PB Kicks for Non-standard Characters and Level 1 PB Restrictions on this Server
+^5PunkBuster Client: Receiving from PB Server (l v1.730 | A1345 C2.164)
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]ZeD^7: ^2askungen aka basshunter!
+[skipnotify]ZeD^7: ^2askungen aka BASSHUNTER!!
+[skipnotify]^2KiH^4.^7FeTTe^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7: ^2FU!
+[skipnotify]ZeD^7: ^2:@)
+[skipnotify]ZeD^7: ^2:@)
+[skipnotify]ZeD^7: ^2:@)
+[skipnotify]^2KiH^4.^7wuff^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 is ready!
+[skipnotify](ZeD^7) (Beach Landing): ^5sirkka unmute
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]ZeD^7: ^2min pls, getting a drink and toilet
+[skipnotify]ZeD^7: ^2:@)
+[skipnotify]^2KiH^4.^7smutzig^7 is ready!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7lelle^6!^7's Luger 9mm
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7lelle^6!^7's Luger 9mm
+[skipnotify](^VK^cy^vLi^ce^7) (Beach Landing): ^5sirrka
+[skipnotify]sirkka^0.^2po^3w^1er^7 was stabbed by ^2KiH^4.^7lelle^6!^7's knife
+[skipnotify](^VK^cy^vLi^ce^7) (Beach Landing): ^5^0[^5MEDiC^0]
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 is ready!
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^5dOpe ^6do^2Op^3pi^7: ^22
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^2KiH^4.^7wuff^7 was exploded by ^pepsy^3.^7cltcmdr^7's grenade
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7 's .45ACP 1911
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^pepsy^3.^7cltcmdr^7 ^1WAS KILLED BY TEAMMATE^7 ^5dOpe ^6do^2Op^3pi^7
+[skipnotify]^2KiH^4.^7wuff^7 is ready!
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify](^VK^cy^vLi^ce^7) (Beach Landing): ^5are you on ventrilo aswell
+[skipnotify](^VK^cy^vLi^ce^7) (Beach Landing): ^5in svensk
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^pepsy^3.^7cltcmdr^7: ^2so hi lelle and askungen, i guess its been 6 years :)
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]sirkka^0.^2po^3w^1er^7: ^2du ar i ventrilo ockso
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]^2KiH^4.^7wuff^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]^2KiH^4.^7lelle^6!^7 is ready!
+[skipnotify]^2KiH^4.^7FeTTe^7 is ready!
+[skipnotify]^2KiH^4.^7FeTTe^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7wuff^7
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^VK^cy^vLi^ce^7: ^2basshunterrrrrrrrrr
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^5dOpe ^6do^2Op^3pi^7's sniper rifle
+[skipnotify]sirkka^0.^2po^3w^1er^7 is ready!
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Forward Bunker Door): ^5[^7Spawn As Sniper]
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Forward Bunker Door): ^5[^7Respawn Sniperhill^0]
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 is ready!
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^pepsy^3.^7cltcmdr^7 is ready!
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed.
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Forward Bunker): ^5^p[^?Engineer^p]
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 is ready!
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify](ZeD^7) (Beach Landing): ^5I'm switching to ^1Medic
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^>falx^3-^7raul^7 is ready!
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^2KiH^4.^7askungen^7: ^2hi clit
+[skipnotify]^VK^cy^vLi^ce^7 is NOT ready!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7: ^2aha :)
+[skipnotify](^VK^cy^vLi^ce^7) (Sea Wall): ^5^0[^5ENGi^0]
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7: ^2hello to you too
+[skipnotify]^2KiH^4.^7askungen^7: ^2:O)
+[skipnotify]^2KiH^4.^7FeTTe^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7smutzig^7
+[skipnotify]^VK^cy^vLi^ce^7 is ready!
+[skipnotify]^2KiH^4.^7lelle^6!^7: ^2:O)
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7lelle^6!^7's Luger 9mm
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^pepsy^3.^7cltcmdr^7: ^2still the same smilies lol
+[skipnotify]ZeD^7 is ready!
+[skipnotify]^3All players ready!^7
+Match starting...[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^>falx^3-^7raul^7 's .45ACP 1911
+recording to demos/2012-09-26/215853-falx-raul-mp_beach.dm_60.
+]\stoprecord 
+Stopped demo.
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^2KiH^4.^7wuff^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]^2KiH^4.^7smutzig^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+^0AutoSide 
+[skipnotify]^1FIGHT!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^2KiH^4.^7askungen^7 was killed by sirkka^0.^2po^3w^1er^7's sniper rifle
+[skipnotify]^2KiH^4.^7FeTTe^7 was exploded by ^>falx^3-^7raul^7's grenade
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]*** ^3INFO: ^5Dynamite planted near the Sea Wall door!
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]*** ^3INFO: ^5Dynamite planted near the Sea Wall breach!
+[skipnotify]^2KiH^4.^7lelle^6!^7 killed himself.
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]^2KiH^4.^7wuff^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify](ZeD^7) (Beach): ^5I'm switching to ^2Lieutenant^5 (MP40)
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Sea Wall): ^5^p[^?LT ^p/ ^?MP40^p]
+^0Barracks 
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify](^VK^cy^vLi^ce^7) (Forward Bunker): ^5^0[^5MEDiC^0]
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+^0AutoSide 
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Sniper Hill): ^5[^7Spawn As Medic^4]
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Sniper Hill): ^5[^7Respawn default^0]
+[skipnotify]*** ^3INFO: ^5The Sea Wall has been breached!
+[skipnotify]*** ^3INFO: ^5The Sea Wall has been breached!
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was shelled by ^2KiH^4.^7lelle^6!^7's artillery support
+[skipnotify](^VK^cy^vLi^ce^7) (Beach): ^5^v[^3PanZ^v]
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7smutzig^7's support fire
+[skipnotify]^2KiH^4.^7wuff^7 killed himself.
+[skipnotify]ZeD^7 was shelled by ^2KiH^4.^7wuff^7's artillery support
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]*** ^3INFO: ^5Allies capture the Forward Bunker!
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+^0AutoSide 
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]ZeD^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's support fire
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ZeD^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^VK^cy^vLi^ce^7
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7smutzig^7's Luger 9mm
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by ^VK^cy^vLi^ce^7's grenade
+[skipnotify]^2KiH^4.^7lelle^6!^7 killed himself.
+[skipnotify]^2KiH^4.^7FeTTe^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 killed himself.
+[skipnotify]ZeD^7 was exploded by ^2KiH^4.^7askungen^7's grenade
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^5dOpe ^6do^2Op^3pi^7's sniper rifle
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify](ZeD^7) (Trenches): ^5^7> ^0suicide
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was blasted by ^pepsy^3.^7cltcmdr^7's support fire
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ^pepsy^3.^7cltcmdr^7's support fire
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ZeD^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by ^5dOpe ^6do^2Op^3pi^7's grenade
+[skipnotify]^2KiH^4.^7lelle^6!^7 was blasted by ^VK^cy^vLi^ce^7's Panzerfaust
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ^pepsy^3.^7cltcmdr^7's support fire
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Basement): ^5^p[^?Medic^p]
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^pepsy^3.^7cltcmdr^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7wuff^7's Luger 9mm
+[skipnotify]: (^VK^cy^vLi^ce)^3(Beach): ^5Medic!
+[skipnotify]^2KiH^4.^7wuff^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7zerom^7's Luger 9mm
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7smutzig^7's Luger 9mm
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]sirkka^0.^2po^3w^1er^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was exploded by ^>falx^3-^7raul^7's grenade
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by ^>falx^3-^7raul^7's grenade
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ^VK^cy^vLi^ce^7's Panzerfaust
+[skipnotify]ZeD^7 was exploded by ^2KiH^4.^7lelle^6!^7's grenade
+[skipnotify]^2KiH^4.^7askungen^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7lelle^6!^7
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify](ZeD^7) (Upper Bunker): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify](ZeD^7) (Upper Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Upper Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Upper Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Upper Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^pepsy^3.^7cltcmdr^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]ZeD^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]sirkka^0.^2po^3w^1er^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+]\scores 
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^1Axis^7   ^7KiH.FeTTe      ^3   7   6   1  0^7  53^3   5^2  1136^1  1255^6   51^3     14
+^1Axis^7   ^7KiH.smutzig    ^3   8  12   5  0^7  40^3   0^2  1220^1   967^6    0^3      0
+^1Axis^7   ^7KiH.wuff       ^3   4   7   3  0^7  36^3   1^2   843^1  1407^6   43^3      0
+^1Axis^7   ^7KiH.zerom      ^3  12   7   4  0^7  63^3   6^2  2974^1   761^6   18^3      0
+^1Axis^7   ^7KiH.askungen   ^3   7   6   3  0^7  53^3   0^2  1376^1  1291^6    0^3     -2
+^1Axis^7   ^7KiH.lelle!     ^3   4   8   2  1^7  33^3   3^2  1317^1   965^6  224^3     -4
+^7---------------------------------------------------------------------
+^1Axis^7   ^5Totals           42  46  18  1^5  47^3  15^2  8866^1  6646^6  336^3      8
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^4Allies^7 ^7epsy.cltcmdr   ^3   5  10   1  0^7  33^3   2^2  1031^1  1910^6    0^3     22
+^4Allies^7 ^3falx-raul      ^3   6   8   0  0^3  42^3   1^2  1702^1  1920^6    0^3     14
+^4Allies^7 ^7ZeD            ^3   3  13   2  0^7  18^3   4^2   775^1  1677^6   15^3      1
+^4Allies^7 ^7KyLie          ^3   6  10   7  2^7  37^3   2^2  1411^1   632^6  328^3     -3
+^4Allies^7 ^7sirkka.power   ^3   6   9   4  0^7  40^3   1^2  1148^1  1562^6   18^3     -4
+^4Allies^7 ^7dOpe doOppi    ^3   2   9   3  0^7  18^3   0^2   579^1  1165^6    0^3     -7
+^7---------------------------------------------------------------------
+^4Allies^7 ^5Totals           28  59  17  2^5  32^3  10^2  6646^1  8866^6  361^3     23
+
+
+[skipnotify]*** ^3INFO: ^5Axis reclaims the Forward Bunker!
+^0Barracks 
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Upper Base): ^5[^7Spawn As Sniper]
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Upper Base): ^5[^7Respawn Sniperhill^0]
+^0AutoSide 
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Sniper Hill): ^5[^7Spawn As Medic^4]
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Sniper Hill): ^5[^7Respawn default^0]
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^5dOpe ^6do^2Op^3pi^7's sniper rifle
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^5dOpe ^6do^2Op^3pi^7's sniper rifle
+[skipnotify]ZeD^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]*** ^3INFO: ^5Allies capture the Forward Bunker!
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7zerom^7
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+[skipnotify](ZeD^7) (Trenches): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Trenches): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Trenches): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Trenches): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]^2KiH^4.^7FeTTe^7 was exploded by ^5dOpe ^6do^2Op^3pi^7's grenade
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify](ZeD^7) (Trenches): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^>falx^3-^7raul^7 's .45ACP 1911
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]: (^VK^cy^vLi^ce)^3(Trenches): ^5Medic!
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^pepsy^3.^7cltcmdr^7 's .45ACP 1911
+[skipnotify]^2KiH^4.^7lelle^6!^7 fell to his death.
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7: ^2gg
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's support fire
+[skipnotify]Timelimit hit.
+^7Accuracy info for: ^3falx-raul ^7(^21^7 Round)
+
+Weapon     Acrcy Hits/Atts Kll Dth HS
+-------------------------------------
+^3Knife    : ^7  0.0 ^5   0/1    ^2  0 ^1  0
+^3Luger    :                 ^2  0 ^1  2 ^3 0
+^3Colt     : ^7 39.1 ^5   9/23   ^2  1 ^1  0 ^3 0
+^3MP-40    :                 ^2  0 ^1  5 ^3 0
+^3Thompson : ^7 25.1 ^5  72/287  ^2  3 ^1  0 ^3 5
+^3SniperRfl:                 ^2  0 ^1  1 ^3 0
+^3Panzer   :                 ^2  0 ^1  1 ^3 0
+^3Grenade  : ^7100.0 ^5   7/7    ^2  3 ^1  0
+^3Airstrike:                 ^2  0 ^1  1
+^3Syringe  : ^7100.0 ^5   4/4    ^2  0 ^1  0
+
+^2Healthpacks: ^731/32
+^2Revivals   : ^74
+
+^3Damage Given: ^72112    ^3Bodies Gibbed: ^71
+^3Damage Recvd: ^72501    ^3Team Damage  : ^70
+
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^1Axis^7   ^7KiH.FeTTe      ^3  10   9   1  0^7  52^3   6^2  1872^1  2014^6   51^3     18
+^1Axis^7   ^7KiH.wuff       ^3   6  10   3  0^7  37^3   1^2  1057^1  2150^6   43^3      7
+^1Axis^7   ^7KiH.askungen   ^3  11   8   5  0^7  57^3   2^2  1935^1  1575^6   14^3      2
+^1Axis^7   ^7KiH.smutzig    ^3  12  15   7  0^7  44^3   0^2  2228^1  1308^6    0^3      1
+^1Axis^7   ^7KiH.lelle!     ^3   5   9   3  1^7  35^3   4^2  1828^1  1253^6  252^3     -2
+^1Axis^7   ^7KiH.zerom      ^3  16  10   7  0^7  61^3  10^2  4270^1  1057^6   18^3     -3
+^7---------------------------------------------------------------------
+^1Axis^7   ^5Totals           60  61  26  1^5  49^3  23^2 13190^1  9357^6  378^3     23
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^4Allies^7 ^7epsy.cltcmdr   ^3   7  13   2  0^7  35^3   2^2  1337^1  2568^6    0^3     24
+^4Allies^7 ^3falx-raul      ^3   7  10   0  0^3  41^3   1^2  2112^1  2501^6    0^3     17
+^4Allies^7 ^7ZeD            ^3   4  19   3  0^7  17^3   5^2  1479^1  2605^6   62^3     -1
+^4Allies^7 ^7KyLie          ^3   6  14   8  2^7  30^3   2^2  1565^1  1242^6  331^3      0
+^4Allies^7 ^7sirkka.power   ^3   6  13   5  0^7  31^3   1^2  1533^1  2382^6   18^3     -3
+^4Allies^7 ^7dOpe doOppi    ^3   6  13   4  0^7  31^3   0^2  1331^1  1892^6    0^3     -6
+^7---------------------------------------------------------------------
+^4Allies^7 ^5Totals           36  82  22  2^5  30^3  11^2  9357^1 13190^6  411^3     31
+
+
+
+^3>>> Stats recorded to: ^7stats/2012.09.26/220704.txt
+
+[skipnotify]>>> ^3Clock set to: 8:00
+
+
+Wrote screenshots/2012-09-26/220705-falx-raul-mp_beach.jpg
+[skipnotify]Server: timelimit changed to 8.000000
+[skipnotify]^>falx^3-^7raul^7 is ready!
+[skipnotify]^2KiH^4.^7FeTTe^7 is ready!
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 is ready!
+[skipnotify]sirkka^0.^2po^3w^1er^7 is ready!
+^5PunkBuster Client: Server's local PB Log File /home/ogp/.wolf/pb/svlogs/00000041.log has MD5 of 65650C5A6AF44E89B82985D0A6BA080B (6797 bytes)
+[skipnotify]^2KiH^4.^7lelle^6!^7 is ready!
+[skipnotify]^2KiH^4.^7wuff^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 is ready!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 is ready!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 is ready!
+[skipnotify](^VK^cy^vLi^ce^7) (Trenches): ^5^0[^5MEDiC^0]
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify](^>falx^3-^7raul^7) (Trenches): ^5^7Lieutnant/MP40
+[skipnotify]^2KiH^4.^7zerom^7 is ready!
+[skipnotify](ZeD^7) (Radio Stairway): ^5I'm switching to ^6Panzerfaust
+[skipnotify](ZeD^7) (Radio Stairway): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Axis Barracks): ^5^p[^?LT ^p/ ^?MP40^p]
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 is ready!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7wuff^7's Thompson
+[skipnotify](^VK^cy^vLi^ce^7) (Basement): ^5^0[^5LT/MP40^0]
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify](^VK^cy^vLi^ce^7) (Upper Bunker): ^5^0[^5MEDiC^0]
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 is ready!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7askungen^7
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify](^VK^cy^vLi^ce^7) (Upper Bunker): ^5^0[^5LT/MP40^0]
+[skipnotify]^2KiH^4.^7askungen^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7zerom^7
+[skipnotify]^2KiH^4.^7wuff^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]ZeD^7 is ready!
+[skipnotify]^3All players ready!^7
+Match starting...recording to demos/2012-09-26/220808-falx-raul-mp_beach.dm_60.
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+]\stoprecord 
+Stopped demo.
+[skipnotify]^2KiH^4.^7smutzig^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7lelle^6!^7
+[skipnotify]^2KiH^4.^7wuff^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+^0Barracks 
+[skipnotify]^2KiH^4.^7FeTTe^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7wuff^7
+[skipnotify]ZeD^7: ^2^zg00d luck ^1& ^zhave fun!
+[skipnotify]ZeD^7: ^2^zg00d luck ^1& ^zhave fun!
+[skipnotify]ZeD^7: ^2^zg00d luck ^1& ^zhave fun!
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7askungen^7
+[skipnotify]^1FIGHT!
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7smutzig^7 died.
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]*** ^3INFO: ^5Dynamite planted near the Sea Wall breach!
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7askungen^7's sniper rifle
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7lelle^6!^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify](ZeD^7) (Sea Wall): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^5dOpe ^6do^2Op^3pi^7's sniper rifle
+[skipnotify]*** ^3INFO: ^5The Sea Wall has been breached!
+[skipnotify](^VK^cy^vLi^ce^7) (Trenches): ^5^0[^5MEDiC^0]
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^5dOpe ^6do^2Op^3pi^7's sniper rifle
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Trenches): ^5^p[^?Spawns ^?Barracks^p]
+[skipnotify]^2KiH^4.^7smutzig^7 died.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]sirkka^0.^2po^3w^1er^7 ^1WAS KILLED BY TEAMMATE^7 ^pepsy^3.^7cltcmdr^7
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify](^>falx^3-^7raul^7) (Trenches): ^5^7Medic
+[skipnotify](ZeD^7) (Forward Bunker): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+^0AutoSide 
+[skipnotify](^>falx^3-^7raul^7) (Trenches): ^5^7Lieutnant/MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's sniper rifle
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]*** ^3INFO: ^5Dynamite planted near the Sea Wall door!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7askungen^7's sniper rifle
+[skipnotify]^2KiH^4.^7wuff^7 killed himself.
+[skipnotify](ZeD^7) (Forward Bunker): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify](ZeD^7) (Forward Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Forward Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Forward Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Forward Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was exploded by ^>falx^3-^7raul^7's grenade
+[skipnotify]*** ^3INFO: ^5The Sea Wall has been breached!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ^pepsy^3.^7cltcmdr^7's support fire
+[skipnotify]*** ^3INFO: ^5Allies capture the Forward Bunker!
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7FeTTe^7 killed himself.
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7wuff^7's Thompson
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7askungen^7's sniper rifle
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7askungen^7's sniper rifle
+[skipnotify]^2KiH^4.^7lelle^6!^7 was exploded by ^pepsy^3.^7cltcmdr^7's grenade
+^0AutoSide 
+^0AutoSide 
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Sea Wall Breach): ^5[^7Respawn default^0]
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7wuff^7's Thompson
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by ZeD^7's grenade
+[skipnotify]^2KiH^4.^7wuff^7 was exploded by ZeD^7's grenade
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by ZeD^7's grenade
+[skipnotify]^2KiH^4.^7askungen^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]*** ^3INFO: ^5Axis reclaims the Forward Bunker!
+[skipnotify](ZeD^7) (Forward Bunker): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^5dOpe ^6do^2Op^3pi^7's sniper rifle
+[skipnotify]^2KiH^4.^7askungen^7 was exploded by ^>falx^3-^7raul^7's grenade
+[skipnotify]^2KiH^4.^7wuff^7 was exploded by ^VK^cy^vLi^ce^7's grenade
+[skipnotify]^VK^cy^vLi^ce^7 dove on his own grenade.
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]: ^VK^cy^vLi^ce ^3(Forward Bunker Door): ^2Oops.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Trenches): ^5[^7Respawn default^0]
+[skipnotify]^2KiH^4.^7lelle^6!^7 killed himself.
+[skipnotify]*** ^3INFO: ^5Allies capture the Forward Bunker!
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+^0AutoSide 
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ^>falx^3-^7raul^7's support fire
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]^2KiH^4.^7lelle^6!^7 was exploded by ZeD^7's grenade
+[skipnotify]^2KiH^4.^7FeTTe^7 was exploded by ZeD^7's grenade
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^pepsy^3.^7cltcmdr^7's Luger 9mm
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify](ZeD^7) (Trenches): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify](ZeD^7) (Upper Bunker): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ^pepsy^3.^7cltcmdr^7
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 was shelled by ^pepsy^3.^7cltcmdr^7's artillery support
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7wuff^7 was shelled by ^>falx^3-^7raul^7's artillery support
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ^pepsy^3.^7cltcmdr^7's support fire
+[skipnotify]^VK^cy^vLi^ce^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 ZeD^7
+[skipnotify]^2KiH^4.^7FeTTe^7 was exploded by ^>falx^3-^7raul^7's grenade
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ZeD^7's Luger 9mm
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify](ZeD^7) (Trenches): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify](ZeD^7) (Trenches): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Trenches): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify](ZeD^7) (Trenches): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Trenches): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7askungen^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]ZeD^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]: (ZeD)^3(Upper Bunker): ^5Medic!
+[skipnotify]: (ZeD)^3(Upper Bunker): ^5Medic!
+[skipnotify]*** ^3INFO: ^5Axis reclaims the Forward Bunker!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ^pepsy^3.^7cltcmdr^7
+[skipnotify](ZeD^7) (Upper Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Upper Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Upper Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Upper Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]*** ^3INFO: ^5Allies capture the Forward Bunker!
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify]ZeD^7 vaporized himself.
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by ^>falx^3-^7raul^7's grenade
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]sirkka^0.^2po^3w^1er^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Upper Base): ^5[^7Respawn default^0]
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7askungen^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ^pepsy^3.^7cltcmdr^7's support fire
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7's Luger 9mm
+[skipnotify]sirkka^0.^2po^3w^1er^7 was stabbed by ^2KiH^4.^7zerom^7's knife
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]: sirkka^0.^2po^3w^1er ^3(Upper Bunker): ^2Great shot.
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7wuff^7's Thompson
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ^>falx^3-^7raul^7's support fire
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ^>falx^3-^7raul^7's support fire
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Radio Stairway): ^5[^7Respawn default^0]
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]*** ^3INFO: ^5Allies have stolen the War Documents!
+
+[skipnotify]^pepsy^3.^7cltcmdr^7 was exploded by ^2KiH^4.^7FeTTe^7's grenade
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]*** ^3INFO: ^5Axis have returned the War Documents!
+
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]: ^2KiH^4.^7askungen ^3(unknown): ^2Good game.
+[skipnotify]: ZeD ^3(Upper Bunker): ^2Good game.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]Timelimit hit.
+^7Accuracy info for: ^3falx-raul ^7(^22^7 Rounds)
+
+Weapon     Acrcy Hits/Atts Kll Dth HS
+-------------------------------------
+^3Knife    : ^7  0.0 ^5   0/2    ^2  0 ^1  0
+^3Luger    : ^7 14.3 ^5   1/7    ^2  0 ^1  2 ^3 0
+^3Colt     : ^7 39.1 ^5   9/23   ^2  1 ^1  0 ^3 0
+^3MP-40    : ^7 24.5 ^5  46/188  ^2  3 ^1  7 ^3 3
+^3Thompson : ^7 25.1 ^5  72/287  ^2  3 ^1  0 ^3 5
+^3SniperRfl:                 ^2  0 ^1  2 ^3 0
+^3Panzer   :                 ^2  0 ^1  1 ^3 0
+^3Grenade  : ^7 52.2 ^5  12/23   ^2  7 ^1  0
+^3Airstrike: ^7 50.0 ^5   4/8    ^2  3 ^1  1
+^3Artillery: ^7 20.0 ^5   1/5    ^2  1 ^1  0
+^3Syringe  : ^7100.0 ^5   4/4    ^2  0 ^1  0
+
+^2Ammopacks  : ^715/15
+^2Healthpacks: ^733/34
+^2Revivals   : ^74
+
+^3Damage Given: ^74350    ^3Bodies Gibbed: ^75
+^3Damage Recvd: ^73227    ^3Team Damage  : ^782
+
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^1Axis^7   ^3falx-raul      ^3  18  18   5  0^3  50^3   5^2  4350^1  3227^6   82^3     20
+^1Axis^7   ^7dOpe doOppi    ^3  14  22   5  0^7  38^3   0^2  2731^1  3340^6   14^3      7
+^1Axis^7   ^7ZeD            ^3  26  30  11  1^7  46^3  23^2  6164^1  3318^6  187^3     -3
+^1Axis^7   ^7sirkka.power   ^3  20  24  10  2^7  45^3   1^2  3984^1  4547^6  417^3     -3
+^1Axis^7   ^7epsy.cltcmdr   ^3  19  23   5  3^7  45^3   6^2  3674^1  3826^6  444^3     -5
+^1Axis^7   ^7KyLie          ^3  14  21  13  3^7  40^3   8^2  2888^1  2140^6  609^3     -6
+^7---------------------------------------------------------------------
+^1Axis^7   ^5Totals          111 138  49  9^5  44^3  43^2 23791^1 20398^6 1753^3     10
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^4Allies^7 ^7KiH.wuff       ^3   9  28   4  0^7  24^3   1^2  1445^1  5695^6   43^3     28
+^4Allies^7 ^7KiH.FeTTe      ^3  14  25   2  0^7  35^3   7^2  2666^1  5032^6   69^3     18
+^4Allies^7 ^7KiH.lelle!     ^3  11  25   5  1^7  30^3   8^2  3176^1  3381^6  294^3     15
+^4Allies^7 ^7KiH.smutzig    ^3  14  28   9  0^7  33^3   0^2  2842^1  4499^6    0^3     13
+^4Allies^7 ^7KiH.askungen   ^3  18  21   9  0^7  46^3   2^2  3897^1  2922^6   42^3     -2
+^4Allies^7 ^7KiH.zerom      ^3  25  21  11  0^7  54^3  13^2  6372^1  2262^6   36^3     -3
+^7---------------------------------------------------------------------
+^4Allies^7 ^5Totals           91 148  40  1^5  38^3  31^2 20398^1 23791^6  484^3     69
+
+
+
+^3>>> Stats recorded to: ^7stats/2012.09.26/221619.txt
+
+[skipnotify]>>> ^3Objective NOT reached in time (8:00)
+
+
+Wrote screenshots/2012-09-26/221619-falx-raul-mp_beach.jpg
+Not recording a demo.
+[skipnotify]Server: timelimit changed to 8
+[skipnotify]ZeD^7 is ready!
+[skipnotify]sirkka^0.^2po^3w^1er^7 is ready!
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]sirkka^0.^2po^3w^1er^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7wuff^7 killed himself.
+^5PunkBuster Client: Server's local PB Log File /home/ogp/.wolf/pb/svlogs/00000042.log has MD5 of 81066BE7F5F2BCCF0EE80FFCF35EA5E9 (291 bytes)
+[skipnotify]^2KiH^4.^7lelle^6!^7 is ready!
+[skipnotify]^pepsy^3.^7cltcmdr^7 is ready!
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 is ready!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^2KiH^4.^7FeTTe^7 is ready!
+[skipnotify]^2KiH^4.^7FeTTe^7 killed himself.
+[skipnotify]*** ^3INFO: ^5Dynamite planted near the Sea Wall door!
+[skipnotify]^2KiH^4.^7wuff^7 is ready!
+[skipnotify]^2KiH^4.^7wuff^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7lelle^6!^7's Thompson
+[skipnotify]^2KiH^4.^7smutzig^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]^2KiH^4.^7askungen^7 is ready!
+[skipnotify]^>falx^3-^7raul^7 is ready!
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 is ready!
+[skipnotify]^2KiH^4.^7zerom^7 is ready!
+[skipnotify]^2KiH^4.^7lelle^6!^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7wuff^7's Thompson
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]*** ^3INFO: ^5The Sea Wall has been breached!
+[skipnotify]^2KiH^4.^7FeTTe^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7wuff^7
+[skipnotify]^2KiH^4.^7wuff^7 dynamited himself to pieces.
+[skipnotify]^2KiH^4.^7smutzig^7 is ready!
+[skipnotify]^3All players ready!^7
+Match starting...recording to demos/2012-09-26/221722-falx-raul-mp_beach.dm_60.
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+]\stoprecord 
+Stopped demo.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7wuff^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^1FIGHT!
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify](^VK^cy^vLi^ce^7) (Trenches): ^5^0[^5LT/MP40^0]
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]*** ^3INFO: ^5Dynamite planted near the Sea Wall door!
+[skipnotify]*** ^3INFO: ^5Dynamite planted near the Sea Wall breach!
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]sirkka^0.^2po^3w^1er^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify](ZeD^7) (Forward Bunker Door): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify]^2KiH^4.^7FeTTe^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify](^VK^cy^vLi^ce^7) (Upper Bunker): ^5^0[^5MEDiC^0]
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]*** ^3INFO: ^5The Sea Wall has been breached!
+[skipnotify]*** ^3INFO: ^5The Sea Wall has been breached!
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7FeTTe^7's dynamite
+[skipnotify]^pepsy^3.^7cltcmdr^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]^2KiH^4.^7lelle^6!^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^5dOpe ^6do^2Op^3pi^7's sniper rifle
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify]*** ^3INFO: ^5Allies capture the Forward Bunker!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+^0AutoSide 
+[skipnotify](ZeD^7) (Trenches): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+^7Spawntimer: ^101^0|^131 
+^7Spawntimer: ^102^0|^132 
+^7Spawntimer: ^103^0|^133 
+^7Spawntimer: ^104^0|^134 
+^7Spawntimer: ^105^0|^135 
+^7Spawntimer: ^106^0|^136 
+^7Spawntimer: ^107^0|^137 
+^7Spawntimer: ^108^0|^138 
+^7Spawntimer: ^109^0|^139 
+^7Spawntimer: ^110^0|^140 
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+^7Spawntimer: ^111^0|^141 
+^7Spawntimer: ^112^0|^142 
+^7Spawntimer: ^113^0|^143 
+[skipnotify]^2KiH^4.^7FeTTe^7 killed himself.
+^7Spawntimer: ^114^0|^144 
+[skipnotify](ZeD^7) (Upper Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Upper Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Upper Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Upper Bunker): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]ZeD^7 was blasted by ^2KiH^4.^7FeTTe^7's support fire
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7askungen^7's sniper rifle
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]: (^VK^cy^vLi^ce)^3(Upper Bunker): ^5Medic!
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ^pepsy^3.^7cltcmdr^7's support fire
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7askungen^7
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]: ^VK^cy^vLi^ce ^3(Upper Bunker): ^2Yes!
+[skipnotify]: ^VK^cy^vLi^ce ^3(Upper Bunker): ^2Great shot.
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Upper Base): ^5[^7Respawn default^0]
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7: ^2tk him wuff
+[skipnotify](ZeD^7) (Radio Room): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Radio Room): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Radio Room): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Radio Room): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]ZeD^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^>falx^3-^7raul^7: ^2^9>8^1)
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^VK^cy^vLi^ce^7's Luger 9mm
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7wuff^7's Thompson
+[skipnotify]: (^>falx^3-^7raul)^3(Upper Bunker): ^5Defend our objective!
+[skipnotify]: (^>falx^3-^7raul)^3(Upper Bunker): ^5Defend our objective!
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify]^2KiH^4.^7wuff^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^>falx^3-^7raul^7: ^2^9>8^1)
+[skipnotify]*** ^3INFO: ^5Allies have stolen the War Documents!
+
+[skipnotify]: (^VK^cy^vLi^ce)^3(Radio Room): ^5I need ammo!
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ^>falx^3-^7raul^7's support fire
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7lelle^6!^7
+[skipnotify]^2KiH^4.^7askungen^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]: (^VK^cy^vLi^ce)^3(Radio Room): ^5I need ammo!
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Basement): ^5[^7Respawn default^0]
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 was blasted by ^>falx^3-^7raul^7's support fire
+[skipnotify](ZeD^7) (Radio Stairway): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Radio Stairway): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Radio Stairway): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Radio Stairway): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]*** ^3INFO: ^5Axis have returned the War Documents!
+
+[skipnotify]^pepsy^3.^7cltcmdr^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify](ZeD^7) (Upper Base): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]*** ^3INFO: ^5Axis reclaims the Forward Bunker!
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7lelle^6!^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ZeD^7
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7lelle^6!^7's Thompson
+[skipnotify]ZeD^7: ^2:@)
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]: (^pepsy^3.^7cltcmdr)^3(Upper Base): ^5Incoming!
+[skipnotify]*** ^3INFO: ^5Allies capture the Forward Bunker!
+[skipnotify]^VK^cy^vLi^ce^7 ^1WAS KILLED BY TEAMMATE^7 ^pepsy^3.^7cltcmdr^7
+[skipnotify]: (^VK^cy^vLi^ce)^3(Upper Bunker): ^5Medic!
+[skipnotify](^>falx^3-^7raul^7): ^5^7Enemy spawns at ^114^0|^144
+^7Spawntimer: ^115^0|^145 
+^7Spawntimer: ^114^0|^144 
+^5PunkBuster Client: No Master Query Sent - DNS has not yet resolved for MASTER1.EVENBALANCE.COM
+[skipnotify]*** ^3INFO: ^5Allies have stolen the War Documents!
+
+[skipnotify]: (^VK^cy^vLi^ce)^3(Upper Bunker): ^5Medic!
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify](ZeD^7) (War Room): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]^2KiH^4.^7askungen^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7smutzig^7
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 vaporized himself.
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify](ZeD^7) (Trenches): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Trenches): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Trenches): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Trenches): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]^2KiH^4.^7askungen^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify]^2KiH^4.^7askungen^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify]*** ^3INFO: ^5Axis have returned the War Documents!
+
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7lelle^6!^7's Thompson
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+^5PunkBuster Client: Removing "^2KiH^4.^7malmen" 42f9 (2 minutes) Cvar cg_autoaction = 1
+[skipnotify]^2KiH^4.^7malmen^7 PunkBuster kicked player '^2KiH^4.^7malmen' (for 2 minutes) ... Cvar cg_autoaction = 1
+[skipnotify]*** ^3INFO: ^5Allies have stolen the War Documents!
+
+[skipnotify](sirkka^0.^2po^3w^1er^7) (War Room): ^5[^7Respawn default^0]
+[skipnotify]^2KiH^4.^7smutzig^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ZeD^7
+[skipnotify]ZeD^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]ZeD^7 was exploded by ^2KiH^4.^7FeTTe^7's grenade
+[skipnotify]: (ZeD)^3(Radio Stairway): ^5Medic!
+[skipnotify]: (ZeD)^3(Radio Stairway): ^5Medic!
+[skipnotify]: (ZeD)^3(Radio Stairway): ^5Medic!
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify](ZeD^7) (Upper Base): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]ZeD^7 vaporized himself.
+[skipnotify]: (ZeD)^3(Upper Bunker): ^5Medic!
+[skipnotify]: (ZeD)^3(Upper Bunker): ^5Medic!
+[skipnotify]: (ZeD)^3(Upper Bunker): ^5Medic!
+[skipnotify]^2KiH^4.^7askungen^7 was exploded by ^5dOpe ^6do^2Op^3pi^7's grenade
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was exploded by ^2KiH^4.^7zerom^7's grenade
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7wuff^7's Thompson
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7lelle^6!^7's Thompson
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]*** ^3INFO: ^5Allies transmitted the documents!
+^7Accuracy info for: ^3falx-raul ^7(^21^7 Round)
+
+Weapon     Acrcy Hits/Atts Kll Dth HS
+-------------------------------------
+^3MP-40    : ^7 21.6 ^5  16/74   ^2  0 ^1  2 ^3 0
+^3Thompson :                 ^2  0 ^1  1 ^3 0
+^3Grenade  : ^7 20.0 ^5   2/10   ^2  0 ^1  1
+^3Dynamite :                 ^2  0 ^1  1
+^3Airstrike: ^7 33.3 ^5   3/9    ^2  2 ^1  0
+^3Artillery: ^7 25.0 ^5   1/4    ^2  0 ^1  0
+
+^2Ammopacks: ^77/7
+
+^3Damage Given: ^7913     ^3Bodies Gibbed: ^73
+^3Damage Recvd: ^71105    ^3Team Damage  : ^70
+
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^1Axis^7   ^7sirkka.power   ^3  10   9   2  2^7  52^3   4^2  2371^1  1438^6   70^3     32
+^1Axis^7   ^7epsy.cltcmdr   ^3   9   9   2  1^7  50^3   3^2  1478^1  1140^6  230^3     14
+^1Axis^7   ^7ZeD            ^3   7   8   6  0^7  46^3   9^2  2164^1   886^6    0^3     -1
+^1Axis^7   ^3falx-raul      ^3   2   8   3  0^3  20^3   3^2   913^1  1105^6    0^3     -4
+^1Axis^7   ^7dOpe doOppi    ^3   3   9   3  0^7  25^3   0^2  1117^1  1572^6    0^3     -6
+^1Axis^7   ^7KyLie          ^3   5   9   5  3^7  35^3   2^2  1124^1  1141^6  416^3    -13
+^7---------------------------------------------------------------------
+^1Axis^7   ^5Totals           36  52  21  6^5  40^3  21^2  9167^1  7282^6  716^3     22
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^4Allies^7 ^7KiH.FeTTe      ^3  10   6   1  4^7  62^3   5^2  1775^1  1219^6  312^3     60
+^4Allies^7 ^7KiH.lelle!     ^3   4   9   0  1^7  30^3   2^2   728^1  1606^6   18^3     20
+^4Allies^7 ^7KiH.smutzig    ^3   6   7   1  1^7  46^3   3^2  1030^1  1927^6   36^3     14
+^4Allies^7 ^7KiH.wuff       ^3   2   6   0  0^7  25^3   1^2   568^1  1735^6  122^3     12
+^4Allies^7 ^7KiH.askungen   ^3   3   8   2  1^7  27^3   1^2  1212^1  1567^6  160^3      0
+^4Allies^7 ^7KiH.zerom      ^3   7   6   3  0^7  53^3   6^2  1969^1  1113^6    0^3     -2
+^7---------------------------------------------------------------------
+^4Allies^7 ^5Totals           32  42   7  7^5  43^3  18^2  7282^1  9167^6  648^3    104
+
+
+
+^3>>> Stats recorded to: ^7stats/2012.09.26/222403.txt
+
+[skipnotify]>>> ^3Clock set to: 6:30
+
+
+Wrote screenshots/2012-09-26/222404-falx-raul-mp_beach.jpg
+[skipnotify]^2KiH^4.^7malmen^7 PunkBuster kicked player '^2KiH^4.^7malmen' (for 1 minute) ... Prior Kick/Ban
+^5PunkBuster Client: Removing "^2KiH^4.^7malmen" 42f9 (1 minute) Prior Kick/Ban
+[skipnotify]: ^VK^cy^vLi^ce ^3(Upper Bunker): ^2Great shot.
+[skipnotify]^2KiH^4.^7malmen^7 PunkBuster kicked player '^2KiH^4.^7malmen' (for 1 minute) ... Prior Kick/Ban
+^5PunkBuster Client: Removing "^2KiH^4.^7malmen" 42f9 (1 minute) Prior Kick/Ban
+[skipnotify]Server: timelimit changed to 6.505000
+[skipnotify]sirkka^0.^2po^3w^1er^7 is ready!
+[skipnotify]^2KiH^4.^7lelle^6!^7 is ready!
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Beach Landing): ^5[^7Spawn As Sniper]
+[skipnotify]^VK^cy^vLi^ce^7 is ready!
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Beach Landing): ^5[^7Respawn Sniperhill^0]
+[skipnotify]^2KiH^4.^7malmen^7 PunkBuster kicked player '^2KiH^4.^7malmen' (for 1 minute) ... Prior Kick/Ban
+[skipnotify]^2KiH^4.^7wuff^7 killed himself.
+^5PunkBuster Client: Removing "^2KiH^4.^7malmen" 42f9 (1 minute) Prior Kick/Ban
+^5PunkBuster Client: Server's local PB Log File /home/ogp/.wolf/pb/svlogs/00000043.log has MD5 of 1D19BCF7BDF0CBAED284469E01407DF3 (1958 bytes)
+[skipnotify]^pepsy^3.^7cltcmdr^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]ZeD^7 is ready!
+[skipnotify]^2KiH^4.^7malmen^7 PunkBuster kicked player '^2KiH^4.^7malmen' (for 1 minute) ... Prior Kick/Ban
+^5PunkBuster Client: Removing "^2KiH^4.^7malmen" 42f9 (1 minute) Prior Kick/Ban
+[skipnotify]ZeD^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7malmen^7 PunkBuster kicked player '^2KiH^4.^7malmen' (for 1 minute) ... Prior Kick/Ban
+^5PunkBuster Client: Removing "^2KiH^4.^7malmen" 42f9 (1 minute) Prior Kick/Ban
+[skipnotify]^2KiH^4.^7zerom^7 is ready!
+[skipnotify]^2KiH^4.^7askungen^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^>falx^3-^7raul^7 is ready!
+[skipnotify](^>falx^3-^7raul^7) (Beach Landing): ^5^7Medic
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^2KiH^4.^7FeTTe^7 called a vote.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 fell to his death.
+[skipnotify]^2KiH^4.^7lelle^6!^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7smutzig^7
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]Vote cast.
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Sea Wall): ^5^p[^?Medic^p]
+[skipnotify]^2Vote FAILED! ^3(Map Restart )
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Sea Wall): ^5^p[^?Engineer^p]
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 is ready!
+[skipnotify]^2KiH^4.^7askungen^7 is ready!
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7 's .45ACP 1911
+[skipnotify]^2KiH^4.^7smutzig^7 is ready!
+[skipnotify]^2KiH^4.^7FeTTe^7 is ready!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 is ready!
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by sirkka^0.^2po^3w^1er^7 's .45ACP 1911
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]ZeD^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 died.
+[skipnotify]
+^3Your team is already locked from spectators!
+
+[skipnotify]^2KiH^4.^7wuff^7 is ready!
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^3All players ready!^7
+Match starting...recording to demos/2012-09-26/222515-falx-raul-mp_beach.dm_60.
+]\stoprecord 
+Stopped demo.
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7lelle^6!^7's Luger 9mm
+[skipnotify]Wait another 1.2s to issue ^3lock
+[skipnotify]^2KiH^4.^7zerom^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7askungen^7
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Beach): ^5[^7Spawn As Sniper]
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Beach): ^5[^7Respawn Sniperhill^0]
+[skipnotify]^3Your team is already locked!
+[skipnotify]^2KiH^4.^7malmen^7: ^2whos server is this*?
+[skipnotify]^2KiH^4.^7FeTTe^7 killed himself.
+[skipnotify]ZeD^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]^1FIGHT!
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Sniper Hill): ^5^p[^?Spawns ^?Default ^?Side^p]
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify](^VK^cy^vLi^ce^7) (Beach): ^5^0[^5ENGi^0]
+[skipnotify](ZeD^7) (Beach): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7: ^2/serverstatus
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]^2KiH^4.^7wuff^7 fired-for-effect on himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's sniper rifle
+[skipnotify]^2KiH^4.^7FeTTe^7 was exploded by ^VK^cy^vLi^ce^7's grenade
+[skipnotify]*** ^3INFO: ^5Dynamite planted near the Sea Wall door!
+[skipnotify]^2KiH^4.^7askungen^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify](ZeD^7) (Beach Landing): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+^0Barracks 
+^0AutoSide 
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]*** ^3INFO: ^5Allies capture the Forward Bunker!
+[skipnotify]*** ^3INFO: ^5Dynamite planted near the Sea Wall breach!
+[skipnotify]*** ^3INFO: ^5The Sea Wall has been breached!
+[skipnotify](ZeD^7) (Beach Landing): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7lelle^6!^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Sea Wall): ^5^p[^?LT ^p/ ^?MP40^p]
+[skipnotify](ZeD^7) (Beach Landing): ^5I'm switching to ^2Lieutenant^5 (MP40)
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify](ZeD^7) (Beach Landing): ^5I'm switching to ^6Panzerfaust
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Sniper Hill): ^5[^7Spawn As Medic^4]
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Sniper Hill): ^5[^7Respawn default^0]
+^0AutoSide 
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]*** ^3INFO: ^5The Sea Wall has been breached!
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^5dOpe ^6do^2Op^3pi^7's sniper rifle
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify](^VK^cy^vLi^ce^7) (Trenches): ^5^0[^5MEDiC^0]
+[skipnotify]ZeD^7 was blasted by ^2KiH^4.^7smutzig^7's support fire
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7smutzig^7's support fire
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^5dOpe ^6do^2Op^3pi^7's sniper rifle
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^pepsy^3.^7cltcmdr^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]sirkka^0.^2po^3w^1er^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 was exploded by ZeD^7's grenade
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify](ZeD^7) (Forward Bunker): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^VK^cy^vLi^ce^7 was exploded by ^2KiH^4.^7zerom^7's grenade
+[skipnotify]: ^VK^cy^vLi^ce ^3(Sea Wall): ^2Great shot.
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7: ^2hehe
+[skipnotify]ZeD^7 was blasted by ^2KiH^4.^7lelle^6!^7's support fire
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by ^5dOpe ^6do^2Op^3pi^7's grenade
+[skipnotify]^pepsy^3.^7cltcmdr^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^5dOpe ^6do^2Op^3pi^7 's .45ACP 1911
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]*** ^3INFO: ^5Axis reclaims the Forward Bunker!
+[skipnotify](ZeD^7) (Sea Wall Breach): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]*** ^3INFO: ^5Allies capture the Forward Bunker!
+[skipnotify]: (^VK^cy^vLi^ce)^3(Beach): ^5I need ammo!
+[skipnotify]^pepsy^3.^7cltcmdr^7 was exploded by ^2KiH^4.^7askungen^7's grenade
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify](ZeD^7) (Beach): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was exploded by ^2KiH^4.^7smutzig^7's grenade
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+[skipnotify]: ZeD ^3(Trenches): ^2Great shot.
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify]*** ^3INFO: ^5Allies have stolen the War Documents!
+
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]*** ^3INFO: ^5Axis have returned the War Documents!
+
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7smutzig^7's support fire
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7smutzig^7's support fire
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]*** ^3INFO: ^5Allies have stolen the War Documents!
+
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify](ZeD^7) (Beach Landing): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by ^pepsy^3.^7cltcmdr^7's grenade
+[skipnotify]*** ^3INFO: ^5Axis have returned the War Documents!
+
+[skipnotify]: ZeD ^3(Beach Landing): ^2Good game.
+[skipnotify]^2KiH^4.^7FeTTe^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7zerom^7
+[skipnotify]^2KiH^4.^7zerom^7 vaporized himself.
+[skipnotify]Timelimit hit.
+^7Accuracy info for: ^3falx-raul ^7(^22^7 Rounds)
+
+Weapon     Acrcy Hits/Atts Kll Dth HS
+-------------------------------------
+^3Colt     : ^7 33.3 ^5   2/6    ^2  0 ^1  0 ^3 0
+^3MP-40    : ^7 21.6 ^5  16/74   ^2  0 ^1  4 ^3 0
+^3Thompson : ^7 22.1 ^5  27/122  ^2  3 ^1  1 ^3 7
+^3Panzer   :                 ^2  0 ^1  3 ^3 0
+^3Grenade  : ^7 18.8 ^5   3/16   ^2  0 ^1  1
+^3Dynamite :                 ^2  0 ^1  1
+^3Airstrike: ^7 33.3 ^5   3/9    ^2  2 ^1  2
+^3Artillery: ^7 25.0 ^5   1/4    ^2  0 ^1  0
+^3Syringe  : ^7 50.0 ^5   1/2    ^2  0 ^1  0
+
+^2Ammopacks  : ^77/7
+^2Healthpacks: ^715/15
+^2Revivals   : ^71
+
+^3Damage Given: ^71719    ^3Bodies Gibbed: ^73
+^3Damage Recvd: ^72889    ^3Team Damage  : ^70
+
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^1Axis^7   ^7KiH.askungen   ^3   9  12   4  1^7  42^3   3^2  2521^1  2564^6  160^3     37
+^1Axis^7   ^7KiH.FeTTe      ^3  14  10   1  4^7  58^3   8^2  2337^1  2213^6  396^3     14
+^1Axis^7   ^7KiH.wuff       ^3   7   9   1  0^7  43^3   1^2  1344^1  2487^6  136^3     12
+^1Axis^7   ^7KiH.lelle!     ^3   9  18   4  1^7  33^3   3^2  1949^1  2594^6   68^3      9
+^1Axis^7   ^7KiH.smutzig    ^3  15  19   4  1^7  44^3   7^2  3258^1  3753^6   36^3      3
+^1Axis^7   ^7KiH.zerom      ^3  20  18  11  1^7  52^3  17^2  5370^1  2257^6  364^3    -12
+^7---------------------------------------------------------------------
+^1Axis^7   ^5Totals           74  86  25  8^5  46^3  39^2 16779^1 15868^6 1160^3     63
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^4Allies^7 ^7epsy.cltcmdr   ^3  13  19   3  1^7  40^3   6^2  2440^1  2700^6  230^3     46
+^4Allies^7 ^7KyLie          ^3   9  16   5  4^7  36^3   3^2  2117^1  2837^6  617^3     16
+^4Allies^7 ^7dOpe doOppi    ^3   9  16   5  0^7  36^3   0^2  2371^1  2663^6  116^3      2
+^4Allies^7 ^3falx-raul      ^3   5  18   6  0^3  21^3   3^2  1719^1  2889^6    0^3     -2
+^4Allies^7 ^7sirkka.power   ^3  13  20   6  2^7  39^3   5^2  3311^1  3382^6   70^3     -9
+^4Allies^7 ^7ZeD            ^3  15  22  13  0^7  40^3  15^2  3910^1  2308^6   43^3    -14
+^7---------------------------------------------------------------------
+^4Allies^7 ^5Totals           64 111  38  7^5  36^3  32^2 15868^1 16779^6 1076^3     39
+
+
+
+^3>>> Stats recorded to: ^7stats/2012.09.26/223156.txt
+
+[skipnotify]>>> ^3Objective NOT reached in time (6:30)
+
+
+Wrote screenshots/2012-09-26/223157-falx-raul-mp_beach.jpg
+Not recording a demo.
+[skipnotify]Server: timelimit changed to 8
+[skipnotify]^2KiH^4.^7FeTTe^7 is ready!
+[skipnotify]^2KiH^4.^7askungen^7 called a vote.
+^5PunkBuster Client: Server's local PB Log File /home/ogp/.wolf/pb/svlogs/00000044.log has MD5 of 63655AAE76CD0FFBF51EBCD2AF71DE3B (2126 bytes)
+[skipnotify]^5Vote passed!
+Current search path:
+F:\Games\RTCW\osp\osp-pak01.pk3 (7 files)
+    on the pure list
+F:\Games\RTCW\osp\osp-pak00.pk3 (15 files)
+    on the pure list
+F:\Games\RTCW\osp\osp-bin07.pk3 (77 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pakmaps3.pk3 (83 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pakmaps2.pk3 (47 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pak5.pk3 (77 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pak4.pk3 (5 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pak3.pk3 (76 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pak2.pk3 (3 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pak1.pk3 (308 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pak0.pk3 (783 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pacific.pk3 (22 files)
+    on the pure list
+F:\Games\RTCW\main\mp_garage.pk3 (25 files)
+    on the pure list
+F:\Games\RTCW\main\mp_ctfmultidemo.pk3 (10 files)
+    on the pure list
+F:\Games\RTCW\main\mp_bin.pk3 (4 files)
+    on the pure list
+F:\Games\RTCW\main\mp_basement.pk3 (6 files)
+    on the pure list
+F:\Games\RTCW\main\te_ufo.pk3 (32 files)
+    on the pure list
+F:\Games\RTCW\main\te_frostbite.pk3 (99 files)
+    on the pure list
+F:\Games\RTCW\main\te_escape2.pk3 (11 files)
+    on the pure list
+F:\Games\RTCW\main\pak0.pk3 (4775 files)
+    on the pure list
+F:\Games\RTCW\main\mp_pakmaps1.pk3 (34 files)
+    on the pure list
+F:\Games\RTCW\main\braundorf_b4.pk3 (218 files)
+    on the pure list
+F:\Games\RTCW\main\bp_badplace.pk3 (21 files)
+    on the pure list
+F:\Games\RTCW/osp
+F:\Games\RTCW\main\mp_theriver.pk3 (49 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_schwalbe.pk3 (213 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_pak_kungfugrip.pk3 (208 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_pakmaps7.pk3 (440 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_pakmaps6.pk3 (81 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_pakmaps5.pk3 (35 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_pakmaps4.pk3 (52 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_pakmaps0.pk3 (21 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_marketgarden.pk3 (82 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_communique.pk3 (8 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_bridge.pk3 (14 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_breakout.pk3 (76 files)
+    not on the pure list
+F:\Games\RTCW\main\mp_bismarck.pk3 (116 files)
+    not on the pure list
+F:\Games\RTCW\main\WL_ufo.pk3 (32 files)
+    not on the pure list
+F:\Games\RTCW\main\wl_beach.pk3 (8 files)
+    not on the pure list
+F:\Games\RTCW\main\te_badplace.pk3 (20 files)
+    not on the pure list
+F:\Games\RTCW\main\supplydepot_b2_fixed.pk3 (213 files)
+    not on the pure list
+F:\Games\RTCW\main\supplydepot_b1.pk3 (213 files)
+    not on the pure list
+F:\Games\RTCW\main\strayjump2.pk3 (39 files)
+    not on the pure list
+F:\Games\RTCW\main\strayjump1.pk3 (19 files)
+    not on the pure list
+F:\Games\RTCW\main\Slickmaster1_beta1.pk3 (59 files)
+    not on the pure list
+F:\Games\RTCW\main\mml_headshot.pk3 (20 files)
+    not on the pure list
+F:\Games\RTCW\main\homiejump1.pk3 (21 files)
+    not on the pure list
+F:\Games\RTCW\main\dzm_trickjump.pk3 (4 files)
+    not on the pure list
+F:\Games\RTCW\main\de_frostbite.pk3 (99 files)
+    not on the pure list
+F:\Games\RTCW\main\brickjump_final.pk3 (9 files)
+    not on the pure list
+F:\Games\RTCW\main\braundorf_b3.pk3 (218 files)
+    not on the pure list
+F:\Games\RTCW\main\braundorf_b1.pk3 (216 files)
+    not on the pure list
+F:\Games\RTCW\main\badplace2.pk3 (20 files)
+    not on the pure list
+F:\Games\RTCW\main\axis_complex.pk3 (13 files)
+    not on the pure list
+F:\Games\RTCW\main\as_fortress.pk3 (47 files)
+    not on the pure list
+F:\Games\RTCW\main\airship.pk3 (60 files)
+    not on the pure list
+F:\Games\RTCW\main\adlernest_b3.pk3 (164 files)
+    not on the pure list
+F:\Games\RTCW\main\adlernest_b2.pk3 (164 files)
+    not on the pure list
+F:\Games\RTCW/main
+
+handle 1: rtcwconsole.log
+----------------------
+58746 files in pk3 files
+Need paks: osp/osp-bin06.pk3
+
+RE_Shutdown( 0 )
+Hunk_Clear: reset the hunk ok
+----- R_Init -----
+
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GTX 550 Ti/PCIe/SSE2
+GL_VERSION: 4.2.0
+GL_EXTENSIONS: GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_instanced GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_map_buffer_range GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_shader_objects GL_ARB_shading_language_100 GL_ARB_shadow GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_compression GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_mirrored_repeat GL_ARB_texture_non_power_of_two GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_transpose_matrix GL_ARB_vertex_array_object GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_blend_square GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_explicit_multisample GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program_fp64 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_buffer_load GL_NV_texgen_reflection GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_expand_normal GL_NV_texture_rectangle GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum GL_WIN_swap_hint WGL_EXT_swap_control 
+GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_ACTIVE_TEXTURES_ARB: 4
+
+PIXELFORMAT: color(32-bits) Z(24-bit) stencil(0-bits)
+MODE: -1, 1920 x 1080 fullscreen hz:120
+GAMMA: software w/ 0 overbright bits
+CPU: Intel Pentium III
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_NEAREST
+picmip: 2
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: disabled
+compressed textures: enabled
+NV distance fog: disabled
+HACK: using vertex lightmap approximation
+Initializing Shaders
+----- finished R_Init -----
+LOADING... collision map
+LOADING... sounds
+voice chat memory size = 3264
+
+.........................
+Initializing Sound Scripts
+...loading 'sound/scripts/cutscene1.sounds'
+...loading 'sound/scripts/cutscene6.sounds'
+...loading 'sound/scripts/cutscene9.sounds'
+...loading 'sound/scripts/cutscene11.sounds'
+...loading 'sound/scripts/cutscene14.sounds'
+...loading 'sound/scripts/cutscene19.sounds'
+...loading 'sound/scripts/escape1.sounds'
+...loading 'sound/scripts/escape2.sounds'
+...loading 'sound/scripts/tram.sounds'
+...loading 'sound/scripts/village1.sounds'
+...loading 'sound/scripts/crypt1.sounds'
+...loading 'sound/scripts/crypt2.sounds'
+...loading 'sound/scripts/church.sounds'
+...loading 'sound/scripts/boss1.sounds'
+...loading 'sound/scripts/forest.sounds'
+...loading 'sound/scripts/rocket.sounds'
+...loading 'sound/scripts/assault.sounds'
+...loading 'sound/scripts/sfm.sounds'
+...loading 'sound/scripts/factory.sounds'
+...loading 'sound/scripts/trainyard.sounds'
+...loading 'sound/scripts/swf.sounds'
+...loading 'sound/scripts/norway.sounds'
+...loading 'sound/scripts/xlabs.sounds'
+...loading 'sound/scripts/boss2.sounds'
+...loading 'sound/scripts/dam.sounds'
+...loading 'sound/scripts/village2.sounds'
+...loading 'sound/scripts/chateau.sounds'
+...loading 'sound/scripts/dark.sounds'
+...loading 'sound/scripts/castle.sounds'
+...loading 'sound/scripts/end.sounds'
+...loading 'sound/scripts/ai.sounds'
+...loading 'sound/scripts/general.sounds'
+...loading 'sound/scripts/combat.sounds'
+...loading 'sound/scripts/movers.sounds'
+done.
+LOADING... graphics
+LOADING... maps/mp_village.bsp
+stitched 0 LoD cracks
+...loaded 16743 faces, 260 meshes, 586 trisurfs, 63 flares
+LOADING... entities
+LOADING... game media
+LOADING...  - textures
+LOADING...  - models
+LOADING...  - weapons
+LOADING...  - items
+LOADING...  - inline models
+LOADING...  - server models
+LOADING...  - particles
+LOADING...  - game media done
+LOADING... flamechunks
+LOADING... clients
+LOADING... ZeD
+LOADING... dOpe doOppi
+LOADING... KiH.smutzig
+LOADING... KiH.askungen
+LOADING... sirkka.power
+LOADING... KiH.wuff
+LOADING... falx-raul
+LOADING... epsy.cltcmdr
+LOADING... KiH.zerom
+LOADING... KiH.lelle!
+LOADING... KyLie
+LOADING... KiH.FeTTe
+LOADING... KiH.malmen
+UI menu load time = 7 milli seconds
+^3
+***
+*** !!! Loaded: OSP for Wolfenstein !!!
+*** !!! Client Version: 0.9 (Jan  7 2004) !!!
+***
+[skipnotify]Current time: ^322:32:18 (26 Sep 2012)
+CL_InitCGame:  1.87 seconds
+2 msec to draw all images
+Com_TouchMemory: 0 msec
+[skipnotify]Server: timelimit changed to 10
+^5PunkBuster Client: WARNING: ^7PB Kicks for Non-standard Characters and Level 1 PB Restrictions on this Server
+^5PunkBuster Client: Receiving from PB Server (l v1.730 | A1345 C2.164)
+[skipnotify]^VK^cy^vLi^ce^7 is ready!
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Southeast City Wall): ^5^p[^?Medic^p]
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+^0Nebel ^2Ein 
+^0Nebel ^1Aus 
+[skipnotify]^>falx^3-^7raul^7 is ready!
+[skipnotify]ZeD^7 called a vote.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 is ready!
+[skipnotify]Vote cast.
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^pepsy^3.^7cltcmdr^7 is ready!
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2Vote FAILED! ^3(Swap Teams )
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]^2KiH^4.^7wuff^7 is ready!
+[skipnotify]^2KiH^4.^7smutzig^7 is ready!
+[skipnotify]: (^pepsy^3.^7cltcmdr)^3(Southwest Courtyard): ^5Thanks.
+[skipnotify]^2KiH^4.^7lelle^6!^7 is ready!
+[skipnotify](^VK^cy^vLi^ce^7) (Allied Truck): ^5o
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^>falx^3-^7raul^7 's .45ACP 1911
+[skipnotify]^2KiH^4.^7askungen^7 is ready!
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify](sirkka^0.^2po^3w^1er^7) (Central Courtyard): ^5ocks.
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]^2KiH^4.^7zerom^7 is ready!
+[skipnotify]^2KiH^4.^7wuff^7: ^21.25
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 is ready!
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7zerom^7's Luger 9mm
+[skipnotify]^2KiH^4.^7smutzig^7 was perforated by ^5dOpe ^6do^2Op^3pi^7's crew-served MG42
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^2KiH^4.^7lelle^6!^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]^2KiH^4.^7smutzig^7 is NOT ready!
+[skipnotify]^2KiH^4.^7FeTTe^7 is ready!
+[skipnotify]^2KiH^4.^7askungen^7 dove on his own grenade.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^5dOpe ^6do^2Op^3pi^7 's .45ACP 1911
+[skipnotify]*** ^3INFO: ^5Allies capture the Northwest Courtyard!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7askungen^7's Luger 9mm
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]ZeD^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 vaporized himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^2KiH^4.^7askungen^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]ZeD^7 is ready!
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 ^1WAS KILLED BY TEAMMATE^7 ZeD^7
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]: (^pepsy^3.^7cltcmdr)^3(West Courtyard): ^5Affirmative.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was exploded by ^2KiH^4.^7zerom^7's grenade
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ^5dOpe ^6do^2Op^3pi^7
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was exploded by ^2KiH^4.^7lelle^6!^7's grenade
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7askungen^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify](^5dOpe ^6do^2Op^3pi^7) (Cottage): ^5?
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 ^>falx^3-^7raul^7
+[skipnotify]^2KiH^4.^7smutzig^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify](^5dOpe ^6do^2Op^3pi^7) (Northwest Courtyard): ^5don't know this map so good :)
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]: (ZeD)^3(Central Bridge): ^5Follow me.
+[skipnotify]: ZeD ^3(Central Bridge): ^2Hold your fire!
+[skipnotify]^2KiH^4.^7smutzig^7 is ready!
+[skipnotify]^3All players ready!^7
+Match starting...recording to demos/2012-09-26/223610-falx-raul-mp_village.dm_60.
+]\stoprecord 
+Stopped demo.
+[skipnotify]^2KiH^4.^7wuff^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7lelle^6!^7
+[skipnotify]^pepsy^3.^7cltcmdr^7: ^2hf
+[skipnotify]^1FIGHT!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify](ZeD^7) (West Courtyard): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]ZeD^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ZeD^7
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^VK^cy^vLi^ce^7 's .45ACP 1911
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^>falx^3-^7raul^7 's .45ACP 1911
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]*** ^3INFO: ^5Allies capture the Northwest Courtyard!
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Tavern): ^5^p[^?Engineer^p]
+[skipnotify](^>falx^3-^7raul^7) (Cottage): ^5^7Lieutnant/MP40
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]*** ^3INFO: ^5Dynamite planted near Gold Storage Crypt!
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Cemetary): ^5^p[^?Medic^p]
+[skipnotify]ZeD^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]*** ^3INFO: ^5The Allies have broken into the Crypt!
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was exploded by ^2KiH^4.^7zerom^7's grenade
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Northwest Courtyard): ^5^p[^?Medic^p]
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ^>falx^3-^7raul^7's support fire
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]*** ^3INFO: ^5Axis have returned the Gold!
+
+^0AutoSide 
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]^2KiH^4.^7lelle^6!^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7askungen^7
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]*** ^3INFO: ^5Axis have returned the Gold!
+
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ^>falx^3-^7raul^7's support fire
+[skipnotify]sirkka^0.^2po^3w^1er^7 was shelled by ^2KiH^4.^7askungen^7's artillery support
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]: (sirkka^0.^2po^3w^1er)^3(Cemetary): ^5Medic!
+[skipnotify]: (sirkka^0.^2po^3w^1er)^3(Cemetary): ^5Medic!
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]ZeD^7 vaporized himself.
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+^0AutoSide 
+[skipnotify](^5dOpe ^6do^2Op^3pi^7) (Central Bridge): ^5st is
+[skipnotify]sirkka^0.^2po^3w^1er^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7askungen^7's support fire
+^7Spawntimer: ^115^0|^145 
+^7Spawntimer: ^114^0|^144 
+^7Spawntimer: ^113^0|^143 
+^7Spawntimer: ^112^0|^142 
+^7Spawntimer: ^111^0|^141 
+^7Spawntimer: ^110^0|^140 
+^7Spawntimer: ^109^0|^139 
+^7Spawntimer: ^108^0|^138 
+^7Spawntimer: ^107^0|^137 
+^7Spawntimer: ^106^0|^136 
+^7Spawntimer: ^105^0|^135 
+^7Spawntimer: ^106^0|^136 
+^7Spawntimer: ^107^0|^137 
+[skipnotify](^>falx^3-^7raul^7): ^5^7Enemy spawns at ^107^0|^137
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]: (^VK^cy^vLi^ce)^3(Tavern): ^5I need ammo!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 vaporized himself.
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]: (^VK^cy^vLi^ce)^3(Southwest Courtyard): ^5Medic!
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's Panzerfaust
+^4AlliedSide 
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was exploded by ^2KiH^4.^7lelle^6!^7's grenade
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7wuff^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7askungen^7
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ^5dOpe ^6do^2Op^3pi^7
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7zerom^7's Luger 9mm
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+^4AlliedSide 
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ZeD^7
+[skipnotify](ZeD^7) (South Tower): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]*** ^3INFO: ^5The Allies have escaped with the Gold!
+^7Accuracy info for: ^3falx-raul ^7(^21^7 Round)
+
+Weapon     Acrcy Hits/Atts Kll Dth HS
+-------------------------------------
+^3Knife    : ^7  0.0 ^5   0/3    ^2  0 ^1  0
+^3Colt     : ^7 25.0 ^5   1/4    ^2  1 ^1  0 ^3 1
+^3MP-40    : ^7 29.1 ^5  43/148  ^2  4 ^1  5 ^3 6
+^3Thompson : ^7 41.4 ^5  12/29   ^2  2 ^1  0 ^3 1
+^3Panzer   :                 ^2  0 ^1  1 ^3 0
+^3Grenade  : ^7  0.0 ^5   0/3    ^2  0 ^1  1
+^3Airstrike: ^7 28.6 ^5   2/7    ^2  2 ^1  0
+^3Syringe  : ^7100.0 ^5   2/2    ^2  0 ^1  0
+
+^2Ammopacks  : ^719/22
+^2Healthpacks: ^75/5
+^2Revivals   : ^72
+
+^3Damage Given: ^71516    ^3Bodies Gibbed: ^74
+^3Damage Recvd: ^71449    ^3Team Damage  : ^714
+
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^1Axis^7   ^7KiH.smutzig    ^3   8   5   0  0^7  61^3   3^2  1620^1  1631^6    0^3     41
+^1Axis^7   ^7KiH.lelle!     ^3   8  10   0  0^7  44^3   1^2  1438^1  1668^6   70^3     30
+^1Axis^7   ^7KiH.wuff       ^3   2   4   0  0^7  33^3   1^2   243^1   949^6   14^3      7
+^1Axis^7   ^7KiH.FeTTe      ^3   5   9   0  0^7  35^3   1^2   923^1  1949^6   56^3      5
+^1Axis^7   ^7KiH.askungen   ^3   6   8   3  2^7  42^3   1^2  1481^1   810^6  286^3      1
+^1Axis^7   ^7KiH.zerom      ^3   9   9   4  0^7  50^3   7^2  2517^1  1149^6   93^3     -3
+^7---------------------------------------------------------------------
+^1Axis^7   ^5Totals           38  45   7  2^5  45^3  14^2  8222^1  8156^6  519^3     81
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^4Allies^7 ^7epsy.cltcmdr   ^3   3   5   1  0^7  37^3   0^2   506^1   658^6   18^3     47
+^4Allies^7 ^3falx-raul      ^3   9  11   4  0^3  45^3   4^2  1516^1  1449^6   14^3     28
+^4Allies^7 ^7sirkka.power   ^3   3  10   1  0^7  23^3   3^2  1015^1  2055^6  104^3     20
+^4Allies^7 ^7dOpe doOppi    ^3   7   8   0  1^7  46^3   1^2   808^1  1694^6  122^3      8
+^4Allies^7 ^7KyLie          ^3   7   7   2  1^7  50^3   3^2  1258^1  1493^6  162^3     -1
+^4Allies^7 ^7ZeD            ^3  10   7   3  1^7  58^3   9^2  3053^1   873^6  163^3     -2
+^7---------------------------------------------------------------------
+^4Allies^7 ^5Totals           39  48  11  3^5  44^3  20^2  8156^1  8222^6  583^3    100
+
+
+
+^3>>> Stats recorded to: ^7stats/2012.09.26/224359.txt
+
+[skipnotify]>>> ^3Clock set to: 7:37
+
+
+Wrote screenshots/2012-09-26/224359-falx-raul-mp_village.jpg
+Not recording a demo.
+[skipnotify]Server: timelimit changed to 7.629167
+[skipnotify]^2KiH^4.^7FeTTe^7 is ready!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 ^1WAS KILLED BY TEAMMATE^7 ZeD^7
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ZeD^7
+[skipnotify]ZeD^7 vaporized himself.
+[skipnotify]^VK^cy^vLi^ce^7 is ready!
+[skipnotify]^2KiH^4.^7askungen^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7zerom^7
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 is ready!
+^5PunkBuster Client: Server's local PB Log File /home/ogp/.wolf/pb/svlogs/00000045.log has MD5 of 951A9E99ECC9A0175946C2AAB7F4DD7F (4900 bytes)
+[skipnotify]^2KiH^4.^7askungen^7 is ready!
+[skipnotify]^2KiH^4.^7FeTTe^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7lelle^6!^7
+[skipnotify]sirkka^0.^2po^3w^1er^7 is ready!
+[skipnotify]^VK^cy^vLi^ce^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 is ready!
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify](^VK^cy^vLi^ce^7) (Axis Deployment Area): ^5^0[^5LT/MP40^0]
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]^2KiH^4.^7zerom^7 is ready!
+[skipnotify]^2KiH^4.^7wuff^7 is ready!
+[skipnotify](ZeD^7) (Cemetary): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^2KiH^4.^7FeTTe^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7lelle^6!^7
+[skipnotify]^2KiH^4.^7smutzig^7 is ready!
+[skipnotify](^VK^cy^vLi^ce^7) (Axis Deployment Area): ^5^0[^5MEDiC^0]
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify](^VK^cy^vLi^ce^7) (Axis Deployment Area): ^5^0[^5LT/MP40^0]
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's Thompson
+^1AxisSide 
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 is ready!
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's Luger 9mm
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7wuff^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7zerom^7's Thompson
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]*** ^3INFO: ^5Allies capture the Northwest Courtyard!
+[skipnotify]^VK^cy^vLi^ce^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]sirkka^0.^2po^3w^1er^7 ^1WAS KILLED BY TEAMMATE^7 ^pepsy^3.^7cltcmdr^7
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 is ready!
+^0AutoSide 
+^0AutoSide 
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7zerom^7's Thompson
+[skipnotify]ZeD^7 is ready!
+[skipnotify]^3All players ready!^7
+Match starting...recording to demos/2012-09-26/224538-falx-raul-mp_village.dm_60.
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+]\stoprecord 
+Stopped demo.
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 ^>falx^3-^7raul^7
+[skipnotify]^1FIGHT!
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify](ZeD^7) (Central Courtyard): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by ^VK^cy^vLi^ce^7's grenade
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 ^1WAS KILLED BY TEAMMATE^7 ^>falx^3-^7raul^7
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]ZeD^7 vaporized himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify](^5dOpe ^6do^2Op^3pi^7) (Destroyed Cottage): ^5SERE
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify](^5dOpe ^6do^2Op^3pi^7) (Destroyed Cottage): ^5XD
+^1AxisSide 
+[skipnotify](^5dOpe ^6do^2Op^3pi^7) (Axis Deployment Area): ^5WERE*
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7lelle^6!^7 was blasted by ^>falx^3-^7raul^7's support fire
+[skipnotify]^2KiH^4.^7askungen^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify](ZeD^7) (Tavern): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was exploded by ^5dOpe ^6do^2Op^3pi^7's grenade
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7zerom^7's support fire
+[skipnotify]^2KiH^4.^7FeTTe^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify]^2KiH^4.^7lelle^6!^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^2KiH^4.^7wuff^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7wuff^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ^>falx^3-^7raul^7's support fire
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7lelle^6!^7's Thompson
+[skipnotify]Pilot: ^3Aborting, can't see target.
+[skipnotify]^2KiH^4.^7FeTTe^7 killed himself.
+[skipnotify]*** ^3INFO: ^5Allies capture the Northwest Courtyard!
+[skipnotify]^2KiH^4.^7lelle^6!^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify](^>falx^3-^7raul^7) (Central Bridge): ^5^7Engineer
+^0AutoSide 
+^1AxisSide 
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 ^1WAS KILLED BY TEAMMATE^7 ^5dOpe ^6do^2Op^3pi^7
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]*** ^3INFO: ^5Axis reclaims the Northwest Courtyard!
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]*** ^3INFO: ^5Allies capture the Northwest Courtyard!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 ^pepsy^3.^7cltcmdr^7
+[skipnotify]*** ^3INFO: ^5Dynamite planted near Gold Storage Crypt!
+[skipnotify]*** ^3INFO: ^5Axis reclaims the Northwest Courtyard!
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7wuff^7's Thompson
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]*** ^3INFO: ^5Allies capture the Northwest Courtyard!
+[skipnotify](ZeD^7) (Cemetary): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ZeD^7
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify]^pepsy^3.^7cltcmdr^7 was exploded by ^2KiH^4.^7wuff^7's grenade
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ^VK^cy^vLi^ce^7's support fire
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ^VK^cy^vLi^ce^7's support fire
+[skipnotify](^>falx^3-^7raul^7) (Cemetary): ^5^7Lieutnant/MP40
+[skipnotify]: (^VK^cy^vLi^ce)^3(Cemetary): ^5Medic!
+[skipnotify](ZeD^7) (Southwest Courtyard): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Southwest Courtyard): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]*** ^3INFO: ^5The Allies have broken into the Crypt!
+[skipnotify](ZeD^7) (Southwest Courtyard): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Southwest Courtyard): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Southwest Courtyard): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Southwest Courtyard): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7lelle^6!^7's Thompson
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]*** ^3INFO: ^5Axis have returned the Gold!
+
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7zerom^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7zerom^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+^5PunkBuster Client: No Master Query Sent - DNS has not yet resolved for RTCW1.EVENBALANCE.COM
+[skipnotify]^2KiH^4.^7askungen^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]^2KiH^4.^7askungen^7 was exploded by ^pepsy^3.^7cltcmdr^7's grenade
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was exploded by ^2KiH^4.^7FeTTe^7's grenade
+[skipnotify]^2KiH^4.^7wuff^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7FeTTe^7 's .45ACP 1911
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]Fire Mission: ^3Aborting, can't see target.
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's MP40
+[skipnotify]: (sirkka^0.^2po^3w^1er)^3(South Tower): ^5Medic!
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^>falx^3-^7raul^7's Luger 9mm
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7lelle^6!^7's Thompson
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^pepsy^3.^7cltcmdr^7's Luger 9mm
+[skipnotify]*** ^3INFO: ^5Axis have returned the Gold!
+
+[skipnotify]^2KiH^4.^7lelle^6!^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7askungen^7
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^pepsy^3.^7cltcmdr^7's Luger 9mm
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^VK^cy^vLi^ce^7 ^1WAS KILLED BY TEAMMATE^7 ZeD^7
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify]Timelimit hit.
+^7Accuracy info for: ^3falx-raul ^7(^22^7 Rounds)
+
+Weapon     Acrcy Hits/Atts Kll Dth HS
+-------------------------------------
+^3Knife    : ^7  0.0 ^5   0/7    ^2  0 ^1  0
+^3Luger    : ^7 40.0 ^5   6/15   ^2  1 ^1  0 ^3 0
+^3Colt     : ^7 25.0 ^5   1/4    ^2  1 ^1  0 ^3 1
+^3MP-40    : ^7 30.5 ^5 108/354  ^2 11 ^1  6 ^315
+^3Thompson : ^7 41.4 ^5  12/29   ^2  2 ^1  2 ^3 1
+^3Panzer   :                 ^2  0 ^1  1 ^3 0
+^3Grenade  : ^7 25.0 ^5   3/12   ^2  0 ^1  2
+^3Airstrike: ^7 38.5 ^5   5/13   ^2  3 ^1  0
+^3Artillery: ^7 20.0 ^5   1/5    ^2  0 ^1  0
+^3Syringe  : ^7100.0 ^5   2/2    ^2  0 ^1  0
+
+^2Ammopacks  : ^726/31
+^2Healthpacks: ^75/5
+^2Revivals   : ^72
+
+^3Damage Given: ^73278    ^3Bodies Gibbed: ^79
+^3Damage Recvd: ^72111    ^3Team Damage  : ^7147
+
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^1Axis^7   ^7sirkka.power   ^3  20  13   1  1^7  60^3  10^2  3311^1  3124^6  350^3     48
+^1Axis^7   ^7epsy.cltcmdr   ^3  20  10   1  1^7  66^3   0^2  2931^1  1953^6  109^3     37
+^1Axis^7   ^7KyLie          ^3  15  13   4  2^7  53^3  10^2  2794^1  2209^6  226^3     13
+^1Axis^7   ^7ZeD            ^3  21  14   6  3^7  60^3  21^2  5844^1  1505^6  644^3      5
+^1Axis^7   ^3falx-raul      ^3  18  20   9  1^3  47^3   9^2  3278^1  2111^6  147^3     -1
+^1Axis^7   ^7dOpe doOppi    ^3  10  13   2  2^7  43^3   2^2  1965^1  2582^6  192^3     -2
+^7---------------------------------------------------------------------
+^1Axis^7   ^5Totals          104  83  23 10^5  55^3  52^2 20123^1 13484^6 1668^3    100
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^4Allies^7 ^7KiH.lelle!     ^3  11  20   1  0^7  35^3   1^2  1952^1  3407^6   70^3     35
+^4Allies^7 ^7KiH.smutzig    ^3  10  14   0  0^7  41^3   3^2  2228^1  3272^6   18^3     28
+^4Allies^7 ^7KiH.FeTTe      ^3  12  21   1  0^7  36^3   3^2  2255^1  4401^6   56^3     22
+^4Allies^7 ^7KiH.askungen   ^3  11  20   3  3^7  35^3   3^2  2553^1  2879^6  468^3      8
+^4Allies^7 ^7KiH.wuff       ^3   4  19   0  0^7  17^3   1^2   939^1  3358^6  104^3      8
+^4Allies^7 ^7KiH.zerom      ^3  13  19   5  0^7  40^3   9^2  3557^1  2806^6  199^3      7
+^7---------------------------------------------------------------------
+^4Allies^7 ^5Totals           61 113  10  3^5  35^3  20^2 13484^1 20123^6  915^3    108
+
+
+
+^3>>> Stats recorded to: ^7stats/2012.09.26/225327.txt
+
+[skipnotify]>>> ^3Objective NOT reached in time (7:37)
+
+
+Wrote screenshots/2012-09-26/225328-falx-raul-mp_village.jpg
+Not recording a demo.
+[skipnotify](^pepsy^3.^7cltcmdr^7) (West Courtyard): ^5^p[^?LT ^p/ ^?MP40^p]
+[skipnotify](^pepsy^3.^7cltcmdr^7) (West Courtyard): ^5^p[^?LT ^p/ ^?MP40^p]
+[skipnotify]Server: timelimit changed to 10
+[skipnotify]^2KiH^4.^7FeTTe^7 is ready!
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Axis Deployment Area): ^5^p[^?Medic^p]
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 is ready!
+^5PunkBuster Client: Server's local PB Log File /home/ogp/.wolf/pb/svlogs/00000046.log has MD5 of FCA3AA733127CC1C24221B584C530E1F (390 bytes)
+[skipnotify]^2KiH^4.^7smutzig^7 is ready!
+[skipnotify]^2KiH^4.^7zerom^7 is ready!
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 is ready!
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]ZeD^7 is ready!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^pepsy^3.^7cltcmdr^7 is ready!
+[skipnotify]^2KiH^4.^7lelle^6!^7 is ready!
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 ^1WAS KILLED BY TEAMMATE^7 ^>falx^3-^7raul^7
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 is ready!
+[skipnotify]^2KiH^4.^7askungen^7 is ready!
+[skipnotify]^2KiH^4.^7wuff^7 killed himself.
+[skipnotify]^2KiH^4.^7FeTTe^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7lelle^6!^7
+[skipnotify]^2KiH^4.^7wuff^7 is ready!
+[skipnotify]^2KiH^4.^7zerom^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]^VK^cy^vLi^ce^7 dove on his own grenade.
+[skipnotify]^>falx^3-^7raul^7 is ready!
+[skipnotify]^3All players ready!^7
+Match starting...recording to demos/2012-09-26/225437-falx-raul-mp_village.dm_60.
+]\stoprecord 
+Stopped demo.
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7lelle^6!^7's Thompson
+[skipnotify]^VK^cy^vLi^ce^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]sirkka^0.^2po^3w^1er^7 ^1WAS KILLED BY TEAMMATE^7 ^5dOpe ^6do^2Op^3pi^7
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^pepsy^3.^7cltcmdr^7 ^1WAS KILLED BY TEAMMATE^7 ^5dOpe ^6do^2Op^3pi^7
+[skipnotify]^VK^cy^vLi^ce^7 ^1WAS KILLED BY TEAMMATE^7 ^>falx^3-^7raul^7
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 ZeD^7
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^1FIGHT!
+^0AutoSide 
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7FeTTe^7 dove on his own grenade.
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by ^>falx^3-^7raul^7's grenade
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7lelle^6!^7's Thompson
+^1AxisSide 
+[skipnotify]ZeD^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]: (^VK^cy^vLi^ce)^3(Tavern): ^5Medic!
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's Luger 9mm
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by sirkka^0.^2po^3w^1er^7's Luger 9mm
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ZeD^7
+[skipnotify]ZeD^7 vaporized himself.
+[skipnotify]^2KiH^4.^7zerom^7 was exploded by ^>falx^3-^7raul^7's grenade
+[skipnotify]^2KiH^4.^7wuff^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by ^5dOpe ^6do^2Op^3pi^7's grenade
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 dove on his own grenade.
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7lelle^6!^7's Thompson
+[skipnotify]^2KiH^4.^7lelle^6!^7 was exploded by ZeD^7's grenade
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7wuff^7's Thompson
+[skipnotify]Fire Mission: ^3Aborting, can't see target.
+[skipnotify]Fire Mission: ^3Aborting, can't see target.
+[skipnotify]Fire Mission: ^3Aborting, can't see target.
+[skipnotify]Fire Mission: ^3Aborting, can't see target.
+[skipnotify]Fire Mission: ^3Aborting, can't see target.
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7wuff^7's Thompson
+[skipnotify](^>falx^3-^7raul^7) (Axis Deployment Area): ^5^7Engineer
+^1AxisSide 
+[skipnotify]*** ^3INFO: ^5Dynamite planted near Gold Storage Crypt!
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7lelle^6!^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify](ZeD^7) (Cemetary): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]*** ^3INFO: ^5Axis engineer disarmed the Dynamite!
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify](^>falx^3-^7raul^7) (Cemetary): ^5^7Lieutnant/MP40
+^1AxisSide 
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]*** ^3INFO: ^5Allies capture the Northwest Courtyard!
+[skipnotify]Fire Mission: ^3Aborting, can't see target.
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7lelle^6!^7's Thompson
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7smutzig^7 's .45ACP 1911
+[skipnotify]*** ^3INFO: ^5Axis reclaims the Northwest Courtyard!
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7zerom^7's Thompson
+[skipnotify]^2KiH^4.^7zerom^7 was exploded by ^>falx^3-^7raul^7's grenade
+[skipnotify]*** ^3INFO: ^5Allies capture the Northwest Courtyard!
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]*** ^3INFO: ^5Axis reclaims the Northwest Courtyard!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's Thompson
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's Thompson
+[skipnotify]sirkka^0.^2po^3w^1er^7 ^1WAS KILLED BY TEAMMATE^7 ^pepsy^3.^7cltcmdr^7
+[skipnotify]*** ^3INFO: ^5Allies capture the Northwest Courtyard!
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^VK^cy^vLi^ce^7 was exploded by ^2KiH^4.^7wuff^7's grenade
+[skipnotify]: (^VK^cy^vLi^ce)^3(Axis Deployment Area): ^5Medic!
+[skipnotify]ZeD^7 dove on his own grenade.
+[skipnotify]^2KiH^4.^7lelle^6!^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7wuff^7
+[skipnotify](^VK^cy^vLi^ce^7) (Axis Deployment Area): ^5spawn time?
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7wuff^7's Thompson
+^7Spawntimer: ^108^0|^138 
+^7Spawntimer: ^109^0|^139 
+^7Spawntimer: ^110^0|^140 
+^7Spawntimer: ^111^0|^141 
+^7Spawntimer: ^112^0|^142 
+^7Spawntimer: ^113^0|^143 
+^7Spawntimer: ^114^0|^144 
+^7Spawntimer: ^113^0|^143 
+^7Spawntimer: ^112^0|^142 
+^7Spawntimer: ^111^0|^141 
+^7Spawntimer: ^110^0|^140 
+^7Spawntimer: ^109^0|^139 
+^7Spawntimer: ^108^0|^138 
+[skipnotify]*** ^3INFO: ^5Dynamite planted near Gold Storage Crypt!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 ZeD^7
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ZeD^7
+[skipnotify]ZeD^7 vaporized himself.
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]sirkka^0.^2po^3w^1er^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify](^>falx^3-^7raul^7) (Destroyed Cottage): ^5^7Lieutnant/MP40
+^1AxisSide 
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]*** ^3INFO: ^5The Allies have broken into the Crypt!
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7askungen^7's Thompson
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was exploded by ^5dOpe ^6do^2Op^3pi^7's grenade
+[skipnotify]^2KiH^4.^7lelle^6!^7 killed himself.
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify](ZeD^7) (Allied Truck): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^2KiH^4.^7smutzig^7 was exploded by sirkka^0.^2po^3w^1er^7's grenade
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ZeD^7's Luger 9mm
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 killed himself.
+[skipnotify]: (^VK^cy^vLi^ce)^3(Southwest Courtyard): ^5Medic!
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was exploded by ^pepsy^3.^7cltcmdr^7's grenade
+[skipnotify]^2KiH^4.^7zerom^7 was exploded by ^VK^cy^vLi^ce^7's grenade
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Luger 9mm
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7wuff^7's Thompson
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was exploded by ZeD^7's grenade
+[skipnotify]^2KiH^4.^7askungen^7 was exploded by ^pepsy^3.^7cltcmdr^7's grenade
+[skipnotify]^VK^cy^vLi^ce^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify]: (^VK^cy^vLi^ce)^3(Southwest Courtyard): ^5Medic!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]*** ^3INFO: ^5Axis have returned the Gold!
+
+[skipnotify]: (sirkka^0.^2po^3w^1er)^3(Southwest Courtyard): ^5Medic!
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7FeTTe^7 's .45ACP 1911
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]^2KiH^4.^7wuff^7 was exploded by ZeD^7's grenade
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7FeTTe^7 's .45ACP 1911
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^pepsy^3.^7cltcmdr^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^2KiH^4.^7wuff^7 was killed by sirkka^0.^2po^3w^1er^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify](ZeD^7) (Southeast City Wall): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7smutzig^7's Thompson
+[skipnotify]^2KiH^4.^7zerom^7 was shelled by ^>falx^3-^7raul^7's artillery support
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7FeTTe^7's Thompson
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^VK^cy^vLi^ce^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^5dOpe ^6do^2Op^3pi^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7lelle^6!^7's Thompson
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7zerom^7 's .45ACP 1911
+[skipnotify]^2KiH^4.^7lelle^6!^7 was blasted by ^VK^cy^vLi^ce^7's support fire
+[skipnotify]sirkka^0.^2po^3w^1er^7 was blasted by ^2KiH^4.^7askungen^7's support fire
+[skipnotify]^2KiH^4.^7wuff^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7askungen^7
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7askungen^7's support fire
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was blasted by ^2KiH^4.^7askungen^7's support fire
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7askungen^7's support fire
+[skipnotify]*** ^3INFO: ^5The Allies have escaped with the Gold!
+^7Accuracy info for: ^3falx-raul ^7(^21^7 Round)
+
+Weapon     Acrcy Hits/Atts Kll Dth HS
+-------------------------------------
+^3Knife    : ^7  0.0 ^5   0/5    ^2  0 ^1  0
+^3Luger    : ^7  0.0 ^5   0/3    ^2  0 ^1  0 ^3 0
+^3MP-40    : ^7 21.3 ^5  63/296  ^2  6 ^1  0 ^3 9
+^3Thompson :                 ^2  0 ^1  7 ^3 0
+^3Grenade  : ^7 55.6 ^5   5/9    ^2  3 ^1  0
+^3Airstrike: ^7  0.0 ^5   0/3    ^2  0 ^1  1
+^3Artillery: ^7 16.7 ^5   1/6    ^2  1 ^1  0
+
+^2Ammopacks: ^716/16
+
+^3Damage Given: ^72119    ^3Bodies Gibbed: ^78
+^3Damage Recvd: ^71406    ^3Team Damage  : ^770
+
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^1Axis^7   ^7epsy.cltcmdr   ^3  10   8   1  1^7  55^3   1^2  2054^1  1594^6  163^3     36
+^1Axis^7   ^7dOpe doOppi    ^3  14   6   1  0^7  70^3   3^2  1960^1  1219^6   48^3     18
+^1Axis^7   ^7sirkka.power   ^3  11   5   2  2^7  68^3   5^2  2012^1  1140^6  290^3     17
+^1Axis^7   ^3falx-raul      ^3  10  11   3  0^3  47^3   8^2  2119^1  1406^6   70^3     11
+^1Axis^7   ^7KyLie          ^3   8  11   3  3^7  42^3   3^2  1666^1  1653^6  452^3      5
+^1Axis^7   ^7ZeD            ^3  12   9   6  2^7  57^3  13^2  3043^1  1212^6  726^3    -12
+^7---------------------------------------------------------------------
+^1Axis^7   ^5Totals           65  50  16  8^5  56^3  33^2 12854^1  8224^6 1749^3     75
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^4Allies^7 ^7KiH.smutzig    ^3   5   9   0  0^7  35^3   0^2  1236^1  1971^6   18^3     46
+^4Allies^7 ^7KiH.lelle!     ^3   4  10   2  0^7  28^3   0^2   984^1  2009^6   36^3     45
+^4Allies^7 ^7KiH.askungen   ^3   9  13   1  1^7  40^3   1^2  2030^1  1910^6  200^3     16
+^4Allies^7 ^7KiH.FeTTe      ^3   7  11   1  0^7  38^3   4^2  1156^1  2017^6  184^3      8
+^4Allies^7 ^7KiH.zerom      ^3   7  16   2  0^7  30^3   3^2  1671^1  2837^6    0^3      7
+^4Allies^7 ^7KiH.wuff       ^3   6  12   1  1^7  33^3   2^2  1147^1  2110^6  100^3      3
+^7---------------------------------------------------------------------
+^4Allies^7 ^5Totals           38  71   7  2^5  34^3  10^2  8224^1 12854^6  538^3    125
+
+
+
+^3>>> Stats recorded to: ^7stats/2012.09.26/230406.txt
+
+[skipnotify]>>> ^3Clock set to: 9:17
+
+
+Wrote screenshots/2012-09-26/230407-falx-raul-mp_village.jpg
+Not recording a demo.
+[skipnotify]Server: timelimit changed to 9.297500
+[skipnotify]^VK^cy^vLi^ce^7 is ready!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^2KiH^4.^7smutzig^7 is ready!
+[skipnotify]^2KiH^4.^7zerom^7 is ready!
+[skipnotify]sirkka^0.^2po^3w^1er^7 is ready!
+[skipnotify]^pepsy^3.^7cltcmdr^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+^5PunkBuster Client: Server's local PB Log File /home/ogp/.wolf/pb/svlogs/00000047.log has MD5 of 04D8FEF3760211A961BA2CEB268156A8 (290 bytes)
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]ZeD^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Southeast City Wall): ^5^p[^?Medic^p]
+[skipnotify]^2KiH^4.^7lelle^6!^7 is ready!
+[skipnotify]^2KiH^4.^7FeTTe^7 is ready!
+[skipnotify]^pepsy^3.^7cltcmdr^7 is ready!
+[skipnotify]^2KiH^4.^7wuff^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^2KiH^4.^7wuff^7 is ready!
+[skipnotify]^7vo^61^5c^3e^7: ^2vafan!
+[skipnotify]ZeD^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 is ready!
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 dove on his own grenade.
+[skipnotify]^>falx^3-^7raul^7 is ready!
+[skipnotify]^2KiH^4.^7askungen^7 is ready!
+[skipnotify](^>falx^3-^7raul^7) (Southeast City Wall): ^5^7Medic
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]ZeD^7 is ready!
+[skipnotify]^2KiH^4.^7wuff^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7FeTTe^7
+[skipnotify]^3All players ready!^7
+Match starting...recording to demos/2012-09-26/230455-falx-raul-mp_village.dm_60.
+[skipnotify]^2KiH^4.^7wuff^7: ^2tysklagg
+]\stoprecord 
+Stopped demo.
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify](^VK^cy^vLi^ce^7) (Southeast City Wall): ^5raipalee
+[skipnotify](^VK^cy^vLi^ce^7) (Southeast City Wall): ^5^0[^5MEDiC^0]
+[skipnotify]^1FIGHT!
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7wuff^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7zerom^7's Luger 9mm
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7zerom^7's Luger 9mm
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^pepsy^3.^7cltcmdr^7 was blasted by ^2KiH^4.^7askungen^7's support fire
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^>falx^3-^7raul^7's Thompson
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ZeD^7
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]*** ^3INFO: ^5Allies capture the Northwest Courtyard!
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 ^1WAS KILLED BY TEAMMATE^7 ZeD^7
+[skipnotify]^2KiH^4.^7FeTTe^7 was exploded by ZeD^7's grenade
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Northwest Courtyard): ^5^p[^?Engineer^p]
+[skipnotify](^>falx^3-^7raul^7) (Tavern): ^5^7Lieutnant/MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]sirkka^0.^2po^3w^1er^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 killed himself.
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]ZeD^7 ^1WAS KILLED BY TEAMMATE^7 ^>falx^3-^7raul^7
+[skipnotify](^VK^cy^vLi^ce^7) (Axis Deployment Area): ^520/50
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify](^VK^cy^vLi^ce^7) (Axis Deployment Area): ^5^0[^5LT/MP40^0]
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]*** ^3INFO: ^5Dynamite planted near Gold Storage Crypt!
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify](^pepsy^3.^7cltcmdr^7) (Cemetary): ^5^p[^?Medic^p]
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify](^VK^cy^vLi^ce^7) (Axis Deployment Area): ^5^0[^5MEDiC^0]
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7zerom^7's MP40
+[skipnotify]Pilot: ^3Aborting, can't see target.
+[skipnotify]: (ZeD)^3(Cemetary): ^5Medic!
+[skipnotify]: (ZeD)^3(Cemetary): ^5Medic!
+[skipnotify]^2KiH^4.^7askungen^7 was killed by sirkka^0.^2po^3w^1er^7 's .45ACP 1911
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7zerom^7's MP40
+[skipnotify]*** ^3INFO: ^5The Allies have broken into the Crypt!
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7zerom^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was perforated by sirkka^0.^2po^3w^1er^7's crew-served MG42
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7zerom^7's MP40
+[skipnotify]: ^VK^cy^vLi^ce ^3(Cemetary): ^2YEE-HAW!
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]*** ^3INFO: ^5Axis reclaims the Northwest Courtyard!
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]*** ^3INFO: ^5Axis have returned the Gold!
+
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify](ZeD^7) (Cemetary): ^5^7> ^0suicide
+[skipnotify]ZeD^7 killed himself.
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]*** ^3INFO: ^5Allies capture the Northwest Courtyard!
+[skipnotify]^2KiH^4.^7malmen^7: ^2:O)
+[skipnotify]^2KiH^4.^7malmen^7: ^2:O)
+[skipnotify]^2KiH^4.^7malmen^7: ^2:O)
+[skipnotify]^2KiH^4.^7malmen^7: ^2:O)
+[skipnotify]^>falx^3-^7raul^7 killed himself.
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was exploded by ^2KiH^4.^7askungen^7's grenade
+[skipnotify]*** ^3INFO: ^5Axis have returned the Gold!
+
+[skipnotify]^2KiH^4.^7zerom^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]^2KiH^4.^7lelle^6!^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]^2KiH^4.^7smutzig^7 was blasted by ^>falx^3-^7raul^7's support fire
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 killed himself.
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^5dOpe ^6do^2Op^3pi^7's Thompson
+[skipnotify]^VK^cy^vLi^ce^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7lelle^6!^7 was exploded by ^5dOpe ^6do^2Op^3pi^7's grenade
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was blasted by ZeD^7's Panzerfaust
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^VK^cy^vLi^ce^7 dove on his own grenade.
+[skipnotify]^2KiH^4.^7smutzig^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7zerom^7
+^0AutoSide 
+[skipnotify]^pepsy^3.^7cltcmdr^7 killed himself.
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^7vo^61^5c^3e^7: ^2this is funny, im speccing kih while listening to mix ^ ^^
+[skipnotify]^2KiH^4.^7lelle^6!^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]*** ^3INFO: ^5Axis reclaims the Northwest Courtyard!
+[skipnotify]^VK^cy^vLi^ce^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7smutzig^7's Luger 9mm
+[skipnotify]*** ^3INFO: ^5Axis have returned the Gold!
+
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 killed himself.
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify](^5dOpe ^6do^2Op^3pi^7) (Southeast City Wall): ^5omg
+[skipnotify]Pilot: ^3Aborting, can't see target.
+[skipnotify]ZeD^7 was blasted by ^2KiH^4.^7askungen^7's support fire
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was blasted by ^2KiH^4.^7askungen^7's support fire
+[skipnotify]^2KiH^4.^7askungen^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]^>falx^3-^7raul^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]ZeD^7 ^1WAS KILLED BY TEAMMATE^7 sirkka^0.^2po^3w^1er^7
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ZeD^7
+[skipnotify]^pepsy^3.^7cltcmdr^7 was killed by ^2KiH^4.^7lelle^6!^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was exploded by ^2KiH^4.^7FeTTe^7's grenade
+[skipnotify]ZeD^7 was killed by ^2KiH^4.^7wuff^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^2KiH^4.^7askungen^7 ^1WAS KILLED BY TEAMMATE^7 ^2KiH^4.^7smutzig^7
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]sirkka^0.^2po^3w^1er^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]ZeD^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]Fire Mission: ^3Firing for effect!
+[skipnotify]^2KiH^4.^7zerom^7 killed himself.
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify](ZeD^7) (Central Courtyard): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Central Courtyard): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ^VK^cy^vLi^ce^7 's .45ACP 1911
+[skipnotify](ZeD^7) (Central Courtyard): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Central Courtyard): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Central Courtyard): ^5^0***^7enemy spawn'ed^0***
+[skipnotify](ZeD^7) (Central Courtyard): ^5^0***^7enemy spawn'ed^0***
+[skipnotify]^pepsy^3.^7cltcmdr^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]^VK^cy^vLi^ce^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by sirkka^0.^2po^3w^1er^7's Thompson
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 was killed by ^2KiH^4.^7askungen^7's MP40
+[skipnotify]^2KiH^4.^7zerom^7 was killed by ZeD^7
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7FeTTe^7's MP40
+[skipnotify]*** ^3INFO: ^5Allies have stolen the Gold!
+
+[skipnotify]sirkka^0.^2po^3w^1er^7 was killed by ^2KiH^4.^7smutzig^7's MP40
+[skipnotify]*** ^3INFO: ^5Axis have returned the Gold!
+
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^>falx^3-^7raul^7's MP40
+[skipnotify]^>falx^3-^7raul^7 was exploded by ^2KiH^4.^7FeTTe^7's grenade
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]^2KiH^4.^7smutzig^7 was killed by ZeD^7 's .45ACP 1911
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ZeD^7
+[skipnotify]ZeD^7 was exploded by ^2KiH^4.^7wuff^7's grenade
+[skipnotify]^2KiH^4.^7wuff^7 was killed by ^VK^cy^vLi^ce^7's Thompson
+[skipnotify]^2KiH^4.^7askungen^7 was killed by ^pepsy^3.^7cltcmdr^7's Thompson
+[skipnotify]^pepsy^3.^7cltcmdr^7 was blasted by ^2KiH^4.^7zerom^7's Panzerfaust
+[skipnotify]^2KiH^4.^7FeTTe^7 was killed by ^VK^cy^vLi^ce^7 's .45ACP 1911
+[skipnotify]^>falx^3-^7raul^7 was killed by ^2KiH^4.^7lelle^6!^7's Luger 9mm
+[skipnotify]Timelimit hit.
+^7Accuracy info for: ^3falx-raul ^7(^22^7 Rounds)
+
+Weapon     Acrcy Hits/Atts Kll Dth HS
+-------------------------------------
+^3Knife    : ^7  0.0 ^5   0/13   ^2  0 ^1  0
+^3Luger    : ^7  0.0 ^5   0/3    ^2  0 ^1  2 ^3 0
+^3Colt     : ^7 40.0 ^5   4/10   ^2  0 ^1  0 ^3 0
+^3MP-40    : ^7 24.6 ^5 135/548  ^2 15 ^1  9 ^314
+^3Thompson : ^7 32.3 ^5  10/31   ^2  2 ^1  7 ^3 0
+^3Panzer   :                 ^2  0 ^1  2 ^3 0
+^3Grenade  : ^7 42.9 ^5   6/14   ^2  3 ^1  1
+^3Airstrike: ^7 11.1 ^5   1/9    ^2  1 ^1  1
+^3Artillery: ^7 14.3 ^5   1/7    ^2  1 ^1  0
+^3Syringe  : ^7100.0 ^5   2/2    ^2  0 ^1  0
+
+^2Ammopacks  : ^735/36
+^2Healthpacks: ^712/12
+^2Revivals   : ^72
+
+^3Damage Given: ^73919    ^3Bodies Gibbed: ^713
+^3Damage Recvd: ^73900    ^3Team Damage  : ^7272
+
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^1Axis^7   ^7KiH.smutzig    ^3  13  19   1  1^7  40^3   1^2  2792^1  4485^6   60^3     64
+^1Axis^7   ^7KiH.FeTTe      ^3  18  21   1  0^7  46^3   9^2  3184^1  4728^6  234^3     51
+^1Axis^7   ^7KiH.askungen   ^3  23  23   3  1^7  50^3   6^2  5393^1  3195^6  231^3     23
+^1Axis^7   ^7KiH.lelle!     ^3  14  18   2  0^7  43^3   7^2  2284^1  2995^6  217^3     18
+^1Axis^7   ^7KiH.wuff       ^3  11  19   1  1^7  36^3   5^2  2222^1  3460^6  156^3     13
+^1Axis^7   ^7KiH.zerom      ^3  24  31   8  1^7  43^3  12^2  5744^1  4801^6  141^3     -3
+^7---------------------------------------------------------------------
+^1Axis^7   ^5Totals          103 131  16  4^5  44^3  40^2 21619^1 23664^6 1039^3    166
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^4Allies^7 ^7sirkka.power   ^3  21  14   3  4^7  60^3   8^2  3768^1  2967^6  380^3     37
+^4Allies^7 ^3falx-raul      ^3  22  28   6  1^3  44^3  13^2  3919^1  3900^6  272^3     25
+^4Allies^7 ^7epsy.cltcmdr   ^3  16  21   4  1^7  43^3   2^2  3196^1  3808^6  181^3     25
+^4Allies^7 ^7KyLie          ^3  14  21   5  3^7  40^3   5^2  3119^1  4212^6  538^3     21
+^4Allies^7 ^7dOpe doOppi    ^3  18  18   2  0^7  50^3   5^2  2860^1  3620^6   48^3     16
+^4Allies^7 ^7ZeD            ^3  25  23   7  3^7  52^3  22^2  6802^1  3112^6  837^3      8
+^7---------------------------------------------------------------------
+^4Allies^7 ^5Totals          116 125  27 12^5  48^3  55^2 23664^1 21619^6 2256^3    132
+
+
+
+^3>>> Stats recorded to: ^7stats/2012.09.26/231423.txt
+
+[skipnotify]>>> ^3Objective NOT reached in time (9:17)
+
+
+Wrote screenshots/2012-09-26/231424-falx-raul-mp_village.jpg
+[skipnotify]^2KiH^4.^7FeTTe^7: ^2ggs
+Not recording a demo.
+[skipnotify]bully^0.^z^2po^4^3w^1er^7: ^2sirkka are you up for a 3on3?
+[skipnotify]Server: timelimit changed to 10
+[skipnotify]^5dOpe ^6do^2Op^3pi^7 disconnected
+[skipnotify]^pepsy^3.^7cltcmdr^7: ^2gg's
+[skipnotify]ZeD^7: ^21 more map?
+[skipnotify]^2KiH^4.^7FeTTe^7 disconnected
+[skipnotify]sirkka^0.^2po^3w^1er^7: ^2Ye :D
+^5PunkBuster Client: Server's local PB Log File /home/ogp/.wolf/pb/svlogs/00000048.log has MD5 of CE751787642DB82903F70DF936B2E290 (1006 bytes)
+[skipnotify]sirkka^0.^2po^3w^1er^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]ZeD^7: ^2mlmn play
+[skipnotify]^VK^cy^vLi^ce^7: ^2IKEA calling?
+[skipnotify]bully^0.^z^2po^4^3w^1er^7: ^2nice, we're on ventrilo
+[skipnotify]^>falx^3-^7raul^7 ^1WAS KILLED BY TEAMMATE^7 ^VK^cy^vLi^ce^7
+[skipnotify]^2KiH^4.^7smutzig^7 disconnected
+[skipnotify]ZeD^7: ^2more?
+[skipnotify]^7vo^61^5c^3e^7: ^2nooooo
+[skipnotify]ZeD^7: ^2:<
+[skipnotify]^2KiH^4.^7lelle^6!^7 disconnected
+[skipnotify]^2KiH^4.^7zerom^7 disconnected
+[skipnotify]: ZeD ^3(Southeast City Wall): ^2Good game.
+----- CL_Shutdown -----
+RE_Shutdown( 1 )
+Shutting down OpenGL subsystem
+...wglMakeCurrent( NULL, NULL ): success
+...deleting GL context: success
+...releasing DC: success
+...destroying window
+...resetting display
+...shutting down QGL
+...unloading OpenGL DLL
+-----------------------

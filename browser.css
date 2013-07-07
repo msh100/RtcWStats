@@ -1,0 +1,328 @@
+body {
+	font-family:sans-serif;
+	font-size: 100%;
+	background: #f5f5f5;
+}
+
+.wrap { 
+	width: 400px;
+	margin: 5em auto;
+	background: #BBBBBB;
+	padding: 25px;
+	border: solid 1px #ece9e9;
+}
+
+.wrapper {
+	background: #BBBBBB;
+	padding-left: 25px;
+	padding-right: 25px;
+	border: solid 1px #ece9e9;
+	display: inline-block;
+}
+
+.chatlog {
+	margin-top: 20px;
+	background: #999999;
+	width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+	border: solid 1px #ece9e9;
+	display: inline-block;
+}
+
+h1 {
+	margin: 0 0 5px 0;
+	font-size: 150%;
+	font-weight:bolder;
+	color: #666666;
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+
+h1 a{
+	padding-top:70px;
+	font-size: 0px;
+}
+
+h2 {
+	font-size:125%;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-weight: normal;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+
+.container {
+	position: absolute;
+	width: 1280px;
+	padding-left: 50px;
+}
+
+.awards {
+	margin-top: 20px;
+}
+
+.awardtitle {
+	display: inline-block;
+}
+
+.awarddetail {
+	display: none;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.awardname {
+	display:inline-block;
+	width: 200px;
+	overflow: hidden;
+}
+
+.awardvalue {
+	display:inline-block;
+	width: 200px;
+	overflow: hidden;
+}
+
+.playerstats {
+	padding-top: 30px;
+}
+
+.playerstat {
+	display:inline-block;
+	padding-left: 10px;
+}
+
+.playerstatdetail {
+	padding-left: 200px;
+	margin-top: -1.5em;
+	padding-bottom: 30px;
+}
+
+.playerenemy {
+	display:inline-block;
+	white-space: nowrap;
+	padding-top: 5px;
+	overflow: visible;
+}
+
+.playertitle {
+	display: inline-block;
+}
+
+.playerdetail {
+	display: none;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+.playerdetailname {
+	display:inline-block;
+	width: 200px;
+	overflow: hidden;
+}
+
+.playerdetailvalue {
+	display:inline-block;
+	width: 200px;
+	overflow: hidden;
+}
+
+table {
+	text-align: left;
+	font-size:100%;
+	border-spacing: 0px;
+	text-align: right;
+	border-collapse: collapse;
+	table-layout:fixed;
+	border: solid 1px #ece9e9;
+
+}
+
+tr {
+	height:1em;
+}
+
+td {
+	overflow:hidden;
+	white-space:nowrap;
+	max-width: 170px;
+    text-overflow: ellipsis;
+	border-style:none;
+	border-left: solid 1px #ece9e9;
+	max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+th {
+	background: #333333;
+	font-size: 100%;
+	padding-top: 0px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border: 0px;
+	width: 1px;
+	color: white;
+	font-weight: bolder;
+	text-align: right;
+	border-left: solid 1px #ece9e9;
+}
+
+.tablerow .tablename {
+	text-align: left;
+	padding-left: 5px;
+	width: 150px;
+}
+
+.tablerowtotal .tablename {
+	text-align: right;
+}
+
+.positive {
+	color: green;
+}
+
+.negative {
+	color: red;
+}
+
+.tablerow:nth-of-type(odd) {
+	background: #BBBBBB;
+} 
+
+.tablerow:nth-of-type(even) {
+	background: #999999;
+} 
+
+.tablerow:hover{
+	background: black;
+	color: white;
+}
+
+.tablerowtotal {
+	background: #333333;
+	color: orange;
+}
+
+.tablerowtotal .positive {
+	color: lightgreen;
+}
+
+.tablerowtotal .negative {
+	color: tomato;
+}
+
+.shortcuts {
+	font-size: 80%;
+	position:fixed;
+	background: orange;
+	text-align: left;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	left: 0px;
+	top: 0px;
+	padding-left: 20px;
+}
+
+.matrixtable th {
+	height: 150px;
+    vertical-align:bottom;
+	font-weight:normal;
+}
+
+.rotated_text {
+	-moz-transform:rotate(-90deg); 
+	-moz-transform-origin: top left;
+	-webkit-transform: rotate(-90deg);
+	-webkit-transform-origin: top left;
+	-o-transform: rotate(-45deg);
+	-o-transform-origin:  top left;
+	position:relative;
+	top:15px;
+	width: 1em;
+	white-space: nowrap;
+	font-weight:normal;
+}
+
+.matrixtable .tablename
+{
+	text-align: right;
+}
+
+.matrixtable th {
+	font-weight: bold;
+}
+
+.matrixtable .tablerow td{
+	max-width: 2em;
+}
+
+.matrixtable .tablerow .tablename{
+	max-width: 10em;
+}
+
+.matrixself {
+	color: red;
+}
+
+.matrixteam {
+	color: orange;
+}
+
+.impressum {
+	text-align: center;
+	font-size: 70%;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.shortcuts a:link { text-decoration: none; color:black;}
+.shortcuts a:visited { text-decoration: none; color:black;}
+.shortcuts a:focus { text-decoration: none; color:black;}
+.shortcuts a:hover { text-decoration: none; color:black;}
+.shortcuts a:active { text-decoration: none; color:black;}
+
+//http://wolfwiki.anime.net/index.php/Color_Codes
+.color0 { color:#000000; }
+.color1 { color:#ff0000; }
+.color2 { color:#00ff00; }
+.color3 { color:#ffff00; }
+.color4 { color:#0000ff; }
+.color5 { color:#00ffff; }
+.color6 { color:#ff00ff; }
+.color7 { color:#ffffff; }
+.color8 { color:#ff7f00; }
+.color9 { color:#7f7f7f; }
+.color10 { color:#bfbfbf; }
+.color11 { color:#bfbfbf; }
+.color12 { color:#007f00; }
+.color13 { color:#7f7f00; }
+.color14 { color:#00007f; }
+.color15 { color:#7f0000; }
+.color16 { color:#7f3f00; }
+.color17 { color:#ff9919; }
+.color18 { color:#007f7f; }
+.color19 { color:#7f007f; }
+.color20 { color:#007fff; }
+.color21 { color:#7f00ff; }
+.color22 { color:#3399cc; }
+.color23 { color:#ccffcc; }
+.color24 { color:#006633; }
+.color25 { color:#ff0033; }
+.color26 { color:#b21919; }
+.color27 { color:#993300; }
+.color28 { color:#cc9933; }
+.color29 { color:#999933; }
+.color30 { color:#ffffbf; }
+.color31 { color:#ffff7f; }

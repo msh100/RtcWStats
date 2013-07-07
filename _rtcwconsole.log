@@ -1,0 +1,76 @@
+[skipnotify]^1FIGHT!
+[skipnotify]hofa^7 ^1WAS KILLED BY TEAMMATE^7 ^praul^f*^7
+^5PunkBuster Client: PnkBstrB service installed and started successfully
+[skipnotify]*** ^3INFO: ^5Axis have stolen Allies locknar!
+
+[skipnotify]*** ^3INFO: ^5Axis capture an allies locknar
+[skipnotify]^praul^f*^7 was crushed.
+[skipnotify]*** ^3INFO: ^5Allies have returned the objective!
+[skipnotify]*** ^3INFO: ^5Axis have stolen Allies locknar!
+
+[skipnotify]*** ^3INFO: ^5Axis capture an allies locknar
+[skipnotify]hofa^7 was crushed.
+^5PunkBuster Client: PnkBstrB service installed and started successfully
+[skipnotify]*** ^3INFO: ^5Allies have returned the objective!
+[skipnotify]*** ^3INFO: ^5Axis have stolen Allies locknar!
+
+[skipnotify]*** ^3INFO: ^5Axis capture an allies locknar
+^7Accuracy info for: ^3raul* ^7(^22^7 Rounds)
+
+Weapon     Acrcy Hits/Atts Kll Dth HS
+-------------------------------------
+^3Knife    : ^7  0.0 ^5   0/5    ^2  0 ^1  0
+^3MP-40    : ^7  0.0 ^5   0/36   ^2  0 ^1  0 ^3 0
+
+^2Ammopacks: ^74/4
+
+^3Damage Given: ^70       ^3Bodies Gibbed: ^70
+^3Damage Recvd: ^70       ^3Team Damage  : ^7428
+
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^1Axis^7   ^7hofa           ^3   0   0   1  0^7   0^3   0^2     0^1     0^6    0^3     59
+^1Axis^7   ^3raul*          ^3   0   0   1  3^3   0^3   0^2     0^1     0^6  428^3     27
+^7---------------------------------------------------------------------
+^1Axis^7   ^5Totals            0   0   2  3^5   0^3   0^2     0^1     0^6  428^3     86
+
+^7TEAM   Player          Kll Dth Sui TK Eff ^3Gib^7    ^2DG    ^1DR   ^6TD  ^3Score
+^7---------------------------------------------------------------------
+^1Axis^7   ^7hofa           ^3   0   0   1  0^7   0^3   0^2     0^1     0^6    0^3     59
+^1Axis^7   ^3raul*          ^3   0   0   1  3^3   0^3   0^2     0^1     0^6  428^3     27
+^7---------------------------------------------------------------------
+^1Axis^7   ^5Totals            0   0   2  3^5   0^3   0^2     0^1     0^6  428^3     86
+
+
+
+^3>>> Stats recorded to: ^7stats/2013.06.19/142824.txt
+
+[skipnotify]>>> ^3Clock set to: 3:28
+
+Wrote screenshots/2013-06-19/142825-raul-mp_ctfmultidemo.jpg
+Not recording a demo.
+==== ShutdownGame ====
+------- Game Initialization -------
+gamename: osp
+gamedate: Jan  7 2004
+Setting MOTD...
+lightjunior doesn't have a spawn function
+0 teams with 0 entities
+24 items registered
+-----------------------------------
+[skipnotify]hofa^7 disconnected
+----- Server Shutdown -----
+==== ShutdownGame ====
+---------------------------
+----- CL_Shutdown -----
+RE_Shutdown( 1 )
+Shutting down OpenGL subsystem
+...wglMakeCurrent( NULL, NULL ): success
+...deleting GL context: success
+...releasing DC: success
+...destroying window
+...resetting display
+...shutting down QGL
+...unloading OpenGL DLL
+-----------------------
