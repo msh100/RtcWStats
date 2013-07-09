@@ -66,9 +66,6 @@ require_once("helper.php");
 //		index = index
 //      activitycount = count;
 //
-// doublePlayers[index]
-// 		players[index]
-//
 //
 // teams[index]
 //		index = index
@@ -82,7 +79,7 @@ class StatsAnalyzer
 	private $matrix;
 	private $indexNames;
 	private $teams;
-	private $doublePlayers;
+	private $team_count;
 	
 	private $selfkills;
 	
@@ -112,14 +109,6 @@ class StatsAnalyzer
 			}
 		}
 		return NULL;
-	}
-	
-	function addToTeam($index, $teamindex)
-	{
-		if (!isset($this->teams[$teamindex][$index]))
-		{
-			array_push($this->teams[$teamindex], $index);
-		}
 	}
 	
 	// function to create a new round
@@ -175,6 +164,7 @@ class StatsAnalyzer
 		$player = array	(
 							"playername" => $playername,
 							"shortname" => $shortname,
+							"activitycount" => 0,
 							"index" => $index
 						);
 		return $player;
@@ -334,7 +324,7 @@ class StatsAnalyzer
 		return $name;
 	}
 	
-	// function to process a logfile*/
+	// function to process a logfile
 	function ProcessFile($filepath)
 	{
 		$isPaused = false;
@@ -348,7 +338,9 @@ class StatsAnalyzer
 		$this->chatlog = array();
 		$this->weapons = $this::createWeapons();
 		$this->matrix = array();
-		$this->doublePlayers = array();
+		$this->teams = array();
+		$team1 = array();
+		$team2 = array();
 		
 		// open logfile
 		$handle = @fopen($filepath, 'r');
@@ -386,14 +378,14 @@ class StatsAnalyzer
 			else if (Helper::startsWith($buffer, "[skipnotify]>>> ^3Clock set to:") || Helper::startsWith($buffer, "[skipnotify]>>> ^3Objective reached at") || Helper::startsWith($buffer, "[skipnotify]>>> ^3Objective NOT reached in time"))
 			{
 				$isPaused = false;
-				$isStarted = false;
+				$isStarted = false;				
 				
 				// sum up osp total stats
 				for($i=0; $i<count($this->playerStats); $i++)
 				{
 					if (isset($this->playerStats[$i]["osp"][$this->round_count]))
 					{
-						//$this->playerStats[$i]["osp"]["total"]["team"] = $this->playerStats[$i]["osp"][$this->round_count]["team"];
+						$this->playerStats[$i]["osp"]["total"]["team"] = $this->playerStats[$i]["osp"][$this->round_count]["team"];
 						$this->playerStats[$i]["osp"]["total"]["frags"] += $this->playerStats[$i]["osp"][$this->round_count]["frags"];
 						$this->playerStats[$i]["osp"]["total"]["deaths"] += $this->playerStats[$i]["osp"][$this->round_count]["deaths"];
 						$this->playerStats[$i]["osp"]["total"]["suicides"] += $this->playerStats[$i]["osp"][$this->round_count]["suicides"];
@@ -478,11 +470,16 @@ class StatsAnalyzer
 				$buffer = fgets($handle, 4096);		// advance two lines
 				$buffer = fgets($handle, 4096);
 				
+				$this->team[$this->round_count] = array(1 => array(), 2 => array());
+				$this->team[$this->round_count][1] = array();
+				$this->team[$this->round_count][2] = array();
 				do		// read team 1 stats
 				{
 					$shortname = substr($this::ProcessStatsLine($buffer, $newstats), 0, 15);		// process stats line
 					$index = $this::getOrCreatePlayer($shortname, NULL);										// create player & index if not existing and/or get index
-					$this->playerStats[$index]["osp"][$this->round_count] = $newstats;				
+					$this->playerStats[$index]["osp"][$this->round_count] = $newstats;
+					array_push($this->team[$this->round_count][1], $index);
+					
 					unset($newstats);
 
 					if (($buffer = fgets($handle, 4096)) == false)		// read next stats line
@@ -501,6 +498,8 @@ class StatsAnalyzer
 					$playername = substr($this::ProcessStatsLine($buffer, $newstats), 0, 15);		// process stats line
 					$index = $this::getOrCreatePlayer($playername, NULL);										// create player & index if not existing and/or get index
 					$this->playerStats[$index]["osp"][$this->round_count] = $newstats;
+					
+					array_push($this->team[$this->round_count][2], $index);
 					
 					if (($buffer = fgets($handle, 4096)) == false)		// read next stats line
 						return -2;
@@ -554,6 +553,9 @@ class StatsAnalyzer
 							
 							// update round matrix
 							$this::setOrCreateMatrix($matrix_thisround, $killerindex, $victimindex, 1);
+							
+							$this->playerIndex[$killershort]["activitycount"] += 1;
+							$this->playerIndex[$victimshort]["activitycount"] += 1;
 						}
 						break;
 					}
@@ -583,6 +585,8 @@ class StatsAnalyzer
 								if (!isset($this->weapons[$weapon]["selfkills"][$index]))		// process killer
 									$this->weapons[$weapon]["selfkills"][$index] = 0;
 								$this->weapons[$weapon]["selfkills"][$index] += 1;
+								
+								$this->playerIndex[$victimshort]["activitycount"] += 1;
 							}
 							break;
 						}
@@ -607,6 +611,8 @@ class StatsAnalyzer
 							
 							// update round matrix
 							$this::setOrCreateMatrix($matrix_thisround, $index, $index, 1);
+							
+							$this->playerIndex[$victimshort]["activitycount"] += 1;
 						}
 					}
 					// check for teamkill line
@@ -635,6 +641,9 @@ class StatsAnalyzer
 							
 							// update round matrix
 							$this::setOrCreateMatrix($matrix_thisround, $killerindex, $victimindex, 1);
+							
+							$this->playerIndex[$victimshort]["activitycount"] += 1;
+							$this->playerIndex[$killershort]["activitycount"] += 1;
 						}
 					}
 					// check for chat line
@@ -648,6 +657,8 @@ class StatsAnalyzer
 						// handle killer
 						$index = $this::getOrCreatePlayer($chattershort, $chatter);		// get overall index
 						$this->playerStats[$index]["chatlines"] += 1;
+						
+						$this->playerIndex[$chattershort]["activitycount"] += 1;
 					}
 					// check for vote line
 					else if (preg_match(Helper::REGEX_VOTE, $buffer, $matches))
@@ -658,6 +669,8 @@ class StatsAnalyzer
 						// handle vote
 						$index = $this::getOrCreatePlayer($votershort, $voter);		// get overall index
 						$this->playerStats[$index]["votes"] += 1;
+						
+						$this->playerIndex[$votershort]["activitycount"] += 1;
 					}
 					// check for kick line
 					else if (preg_match(Helper::REGEX_KICK, $buffer, $matches))
@@ -668,6 +681,8 @@ class StatsAnalyzer
 						// handle kick
 						$index = $this::getOrCreatePlayer($victimshort, $victim);		// get overall index
 						$this->playerStats[$index]["kicks"] += 1;
+						
+						$this->playerIndex[$victimshort]["activitycount"] += 1;
 					}
 					// check for rename line
 					else if (preg_match(Helper::REGEX_RENAME, $buffer, $matches))
@@ -676,12 +691,6 @@ class StatsAnalyzer
 						$oldnameshort = Helper::getShortname($oldname);
 						$newname = $matches[2];
 						$newnameshort = Helper::getShortname($newname);
-						
-						$key = array_search($oldnameshort, $this->doublePlayers);
-						if ($key === false)
-							$this->doublePlayers[$newnameshort] = array($newnameshort);
-						else
-							array_push($this->doublePlayers[$oldnameshort], $newnameshort);
 						
 						// handle rename in global index
 						if (isset($this->playerIndex[$oldnameshort]))	// if player is already existing
@@ -707,30 +716,92 @@ class StatsAnalyzer
 			$index = $player["index"];
 			if(!isset($index_done[$index]))
 			{
-				$index_done[$index] = true;
+				$index_done[$index] = $key;
 				$this->indexNames[$index] = $player["playername"];
 			}
 			else
 			{
-				array_push($to_delete, $key);
+				if ($player["activitycount"] > $this->playerIndex[$index_done[$index]]["activitycount"])
+				{
+					array_push($to_delete, $index_done[$index]);
+					$index_done[$index] = $key;
+					$this->indexNames[$index] = $player["playername"];
+				}
+				else
+					array_push($to_delete, $key);
 			}
 		}
 		foreach($to_delete as $key)
 		{
 			unset($this->playerIndex[$key]);
 		}
+		
+		// set teams correct
+		reset($this->team);
+		$firstround = key($this->team);
+		$team = array();
+		$team[1] = $this->team[$firstround][1];
+		$team[2] = $this->team[$firstround][2];
+		foreach($team[1] as $index)
+		{
+			$this->playerStats[$index]["team"] = "1";
+		}
+		foreach($team[2] as $index)
+		{
+			$this->playerStats[$index]["team"] = "2";
+		}
+		
+		// check for any late-joiners (without team set)
+		foreach($this->playerStats as $index => $player)
+		{
+			if ($player["team"] == "")
+			{
+				$currteam = $this::getTeam($index, $team);
+				if ($currteam != false)
+				{
+					$this->playerStats[$index]["team"] = $currteam;
+					array_push($team[$currteam], $index);
+				}
+			}
+		}
 
 		/*Helper::dump($this->playerStats);
 		Helper::dump($this->playerIndex);
 		Helper::dump($this->weapons);
 		Helper::dump($this->matrix);
+		Helper::dump($this->team);
 		exit;*/
-		Helper::dump($this->doublePlayers);
-		exit;
 		
 		// close logfile
 		fclose($handle);
 		
+	}
+	
+	// function to get team index
+	public function getTeam($index, &$teams)
+	{
+		foreach($this->team as $roundindex => $round)
+		{
+			foreach($round as $team)
+			{
+				if (in_array($index, $team))
+				{
+					$count1 = 0;
+					$count2 = 0;
+					// sum up count of teammates in each team
+					foreach($team as $value)
+					{
+						if (in_array($value, $teams[1])) $count1++;
+						if (in_array($value, $teams[2])) $count2++;
+					}
+					if ($count1 > $count2)
+						return "1";
+					else
+						return "2";
+				}				
+			}
+		}
+		return false;
 	}
 	
 	// function to print stats to a table
@@ -757,7 +828,7 @@ class StatsAnalyzer
 	
 	public function ProcessPrintStats($team, &$sort_stats)
 	{
-		echo "<h2>Team 1</h2>\n";
+		echo "<h2>Team " . $team . "</h2>\n";
 		echo "<table id='statstable' class='sortable'>\n<thead>\n<tr>\n<th class='tablename'>Player</th>\n<th>Kill-Efficiency</th>\n<th>Frags</th>\n<th>Deaths</th>\n<th>Gibs</th>\n<th>Suicides</th>\n";
 		echo "<th>Selfkills</th>\n<th>Teamkills</th>\n<th>Team-DMG</th>\n<th>Damage-Efficiency</th>\n<th>DMG</th>\n<th>DMR</th>\n<th>DMG/Frag</th>\n<th>Rounds</th>\n</tr>\n</thead>\n<tbody>\n";
 		
@@ -821,14 +892,13 @@ class StatsAnalyzer
 	// function to print stats
 	public function PrintStats()
 	{	
-		$sort_stats = array("Axis", "Allies");
+		$sort_stats = array("1" => array(), "2" => array());
 	
 		// sort by team and kill efficiency		
 		foreach ($this->playerIndex as $key => $player)
 		{
 			$index = $player["index"];
-			$teamkey = end($this->playerStats[$index]["osp"]);
-			$team = $teamkey["team"];
+			$team = $this->playerStats[$index]["team"];
 			$sort_stats[$team][$key] = array();
 			$sort_stats[$team][$key]["frageff"] = $this->playerStats[$index]["deaths"] == 0 ? $this->playerStats[$index]["frags"] : $this->playerStats[$index]["frags"] / $this->playerStats[$index]["deaths"];
 			$sort_stats[$team][$key]["index"] = $index;
@@ -836,13 +906,13 @@ class StatsAnalyzer
 			$frageff[$team][$key] = $sort_stats[$team][$key]["frageff"];
 			$this->playerStats[$index]["team"] = $team;
 		}
-		array_multisort($frageff["Axis"], SORT_DESC, $sort_stats["Axis"]);
-		array_multisort($frageff["Allies"], SORT_DESC, $sort_stats["Allies"]);
-		// TODO set team correct
+		array_multisort($frageff["1"], SORT_DESC, $sort_stats["1"]);
+		array_multisort($frageff["2"], SORT_DESC, $sort_stats["2"]);
+		
 		unset($frageff);
 		
-		$this::ProcessPrintStats("Axis", $sort_stats);
-		$this::ProcessPrintStats("Allies", $sort_stats);
+		$this::ProcessPrintStats("1", $sort_stats);
+		$this::ProcessPrintStats("2", $sort_stats);
 		
 		unset($sort_stats);
 	}
@@ -973,8 +1043,8 @@ class StatsAnalyzer
 		{
 			$index = $player["index"];
 			$value = $this->playerStats[$index][$column];
-			$teamkey = end($this->playerStats[$index]["osp"]);
-			if ($teamkey["team"] != "")	// check for specs
+			$team = $this->playerStats[$index]["team"];
+			if ($team != "")	// check for specs
 			{
 				$current = array(
 							"index" => $index,
@@ -999,8 +1069,8 @@ class StatsAnalyzer
 		foreach ($this->playerIndex as $key => $player)
 		{
 			$index = $player["index"];
-			$teamkey = end($this->playerStats[$index]["osp"]);
-			if (isset($this->weapons[$weapon][$type][$index]) && $teamkey["team"] != "")
+			$team = $this->playerStats[$index]["team"];
+			if (isset($this->weapons[$weapon][$type][$index]) && $team != "")
 			{
 				$value = $this->weapons[$weapon][$type][$index];
 
@@ -1257,27 +1327,26 @@ class StatsAnalyzer
 	// function to print player statistics
 	function PrintPlayers()
 	{
-		$sort_stats = array("Axis", "Allies");
+		$sort_stats = array("1" => array(), "2" => array());
 	
 		// sort by team and kill efficiency		
 		foreach ($this->playerIndex as $key => $player)
 		{
 			$index = $player["index"];
-			$teamkey = end($this->playerStats[$index]["osp"]);
-			$team = $teamkey["team"];
+			$team = $this->playerStats[$index]["team"];
 			$sort_stats[$team][$key] = array();
 			$sort_stats[$team][$key]["frageff"] = $this->playerStats[$index]["deaths"] == 0 ? $this->playerStats[$index]["frags"] : $this->playerStats[$index]["frags"] / $this->playerStats[$index]["deaths"];
 			$sort_stats[$team][$key]["index"] = $index;
 			$sort_stats[$team][$key]["playername"] = $player["playername"];
 			$frageff[$team][$key] = $sort_stats[$team][$key]["frageff"];
 		}
-		array_multisort($frageff["Axis"], SORT_DESC, $sort_stats["Axis"]);
-		array_multisort($frageff["Allies"], SORT_DESC, $sort_stats["Allies"]);
+		array_multisort($frageff["1"], SORT_DESC, $sort_stats["1"]);
+		array_multisort($frageff["2"], SORT_DESC, $sort_stats["2"]);
 		unset($frageff);
 		
 		echo "<div class='playerstats'>\n";
-		$this::ProcessPrintPlayers("Axis", $sort_stats);
-		$this::ProcessPrintPlayers("Allies", $sort_stats);
+		$this::ProcessPrintPlayers("1", $sort_stats);
+		$this::ProcessPrintPlayers("2", $sort_stats);
 		echo "</div>\n";
 	}
 	

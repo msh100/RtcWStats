@@ -158,8 +158,6 @@ td {
 	border-style:none;
 	border-left: solid 1px #ece9e9;
 	max-width: 160px;
-    overflow: hidden;
-    text-overflow: ellipsis;
 	padding-left: 3px;
 	padding-right: 3px;
 }
@@ -235,12 +233,6 @@ th {
 	padding-left: 20px;
 }
 
-.matrixtable th {
-	height: 150px;
-    vertical-align:bottom;
-	font-weight:normal;
-}
-
 .rotated_text {
 	-moz-transform:rotate(-90deg); 
 	-moz-transform-origin: top left;
@@ -262,6 +254,11 @@ th {
 
 .matrixtable th {
 	font-weight: bold;
+	width: 1em;
+	height: 150px;
+    vertical-align:bottom;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .matrixtable .tablerow td{

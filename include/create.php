@@ -32,9 +32,9 @@ else
 	echo file_get_contents('./browser.css');
 	echo "</style>\n";
 	echo "<div class='container'>\n";
-	echo "<div class='shortcuts'><a href='#overallstats'>Overall Stats</a> | <a href='#awards'>Awards</a> | <a href='#weapons'>Weapon Stats</a> | <a href='#matrix'>Kill Matrix</a> | <a href='#players'>Player Stats</a> | <a href='#osptotalstats'>OSP Total Stats</a> | <a href='#osproundstats'>OSP Round Stats</a> | <a href='#chatlog'>Chat Log</a></div>\n";
-	//$analyzer = new StatsAnalyzer($_FILES["logfile"]["tmp_name"]);
-	$analyzer = new StatsAnalyzer("rtcwconsole.log");
+	echo "<div class='shortcuts'><a href='#overallstats'>Overall Stats</a> | <a href='#awards'>Awards</a> | <a href='#weapons'>Weapon Stats</a> | <a href='#matrix'>Kill Matrix</a> | <a href='#players'>Player Stats</a> | <a href='#chatlog'>Chat Log</a></div>\n";
+	$analyzer = new StatsAnalyzer($_FILES["logfile"]["tmp_name"]);
+	//$analyzer = new StatsAnalyzer("rtcwconsole.log");
 	echo "<h1><a name='overallstats'>&nbsp;</a>Overall Stats</h1>\n";
 	$analyzer->PrintStats();
 	echo "<h1><a name='awards'>&nbsp;</a>Awards</h1>\n";
@@ -50,11 +50,6 @@ else
 	echo "<div class='wrapper'>\n";
 	$analyzer->PrintPlayers();
 	echo "</div>\n";
-	
-	echo "<h1><a name='osptotalstats'>&nbsp;</a>OSP Total Stats</h1>done by OSP, not always correct\n";
-	$analyzer->PrintRoundStats("total");
-	/*echo "<h1><a name='osproundstats'>&nbsp;</a>OSP Round Stats</h1>\n";
-	$analyzer->PrintRoundStats();*/
 	echo "<h1><a name='chatlog'>&nbsp;</a>Chat Log</h1>\n";
 	$analyzer->PrintChatlog();
 	echo "<div class='impressum'>Tool made by Raul, 2013</div>\n";
@@ -70,7 +65,7 @@ else
 		$pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].dirname($_SERVER["REQUEST_URI"]);
 	else
 		$pageURL .= $_SERVER["SERVER_NAME"] . dirname($_SERVER["REQUEST_URI"]);
-	//header("Location: " . $pageURL . "/" . $filename);
+	header("Location: " . $pageURL . "/" . $filename);
 	exit;
 }
 ?>
